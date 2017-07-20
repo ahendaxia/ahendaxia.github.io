@@ -1,0 +1,192 @@
+﻿/*求法说明样式*/
+
+#fa #main .hi {
+    display:block;    /*块元素定义*/
+    width:224px;    /*宽度定义*/
+    text-indent:230px;    /*文本缩进*/
+    white-space:nowrap;    /*强制不换行*/
+    background:url(images/title.jpg) no-repeat 0 0;    /*背景定义*/
+}
+
+#fa #main #cls {
+    float:left;    /*向左浮动*/
+    width:884px;    /*宽度定义*/
+    margin-left:61px;    /*左外边距定义*/
+    display:inline;    /*内联元素定义*/
+    background:url(images/faline.gif) repeat;    /*背景定义*/
+}
+#fa #main #cls p {
+    width:866px;    /*宽度定义*/
+    text-align:justify;    /*两端对齐*/
+    font-size:21px;    /*字体大小*/
+    font-family:楷体_GB2312;
+    margin:0 auto 35px auto;    /*外边距定义*/
+    line-height:35px;    /*行距定义*/
+    color:#452612;    /*颜色定义*/
+    text-indent:2em;    /*文本缩进*/
+}
+#fa #main #cls .cls1 {
+    text-align:right;    /*向右浮动*/
+}
+
+
+#fa #main ul {
+    float:left;    /*向左浮动*/
+    width:838px;    /*宽度定义*/
+    height:34px;    /*高度定义*/
+    margin:20px 0 90px 81px;    /*左外边距定义*/
+    display:inline;    /*内联元素定义*/
+}
+#fa #main ul li {
+    float:left;    /*向左浮动*/
+    height:34px;    /*高度定义*/
+    margin-right:58px;    /*外边距定义*/
+    display:inline;    /*内联元素定义*/
+}
+#fa #main .ji4 {
+    margin-right:0;    /*外边距定义*/
+}
+#fa #main ul .ji1 a {
+    display:block;    /*块元素定义*/
+    width:147px;    /*宽度定义*/
+    height:35px;    /*高度定义*/
+    text-indent:160px;    /*文本缩进*/
+    white-space:nowrap;    /*强制不换行*/
+    overflow:hidden;    /*溢出隐藏*/
+    background:url(images/qiulie.jpg) no-repeat 0 0;    /*背景定义*/
+}
+#fa #main ul .ji2 a {
+    display:block;    /*块元素定义*/
+    width:126px;    /*宽度定义*/
+    height:35px;    /*高度定义*/
+    text-indent:130px;    /*文本缩进*/ 
+    white-space:nowrap;    /*强制不换行*/
+    overflow:hidden;    /*溢出隐藏*/
+    background:url(images/qiulie.jpg) no-repeat -147px 0;    /*背景定义*/
+}
+#fa #main ul .ji3 a {
+    display:block;    /*块元素定义*/
+    width:232px;    /*宽度定义*/
+    height:35px;    /*高度定义*/
+    text-indent:285px;    /*文本缩进*/
+    white-space:nowrap;    /*强制不换行*/
+    overflow:hidden;    /*溢出隐藏*/
+    background:url(images/qiulie.jpg) no-repeat -273px 0;    /*背景定义*/
+}
+#fa #main ul .ji4 a {
+    display:block;    /*块元素定义*/
+    width:147px;    /*宽度定义*/
+    height:35px;    /*高度定义*/
+    text-indent:155px;    /*文本缩进*/
+    white-space:nowrap;    /*强制不换行*/
+    overflow:hidden;    /*溢出隐藏*/
+    background:url(images/qiulie.jpg) no-repeat -505px 0;    /*背景定义*/
+}
+
+/*求法申请表样式*/
+
+
+#fa #main .ho {
+    display:block;    /*块元素定义*/
+    width:224px;    /*宽度定义*/
+    text-indent:230px;    /*文本缩进*/
+    white-space:nowrap;    /*强制不换行*/
+    background:url(images/title.jpg) no-repeat 0 -30px;    /*背景定义*/
+}
+#fa #main #ta {
+    float:left;    /*向左浮动*/
+    width:820px;    /*宽度定义*/
+    margin-left:85px;    /*左外边距定义*/
+    display:inline;    /*内联元素定义*/
+}
+#fa #main #ta .datalist {
+    float:left;    /*向左浮动*/
+    width:820px;    /*宽度定义*/
+    border:0;	/*表格边框 */
+	border-collapse:collapse;	/* 边框重叠 */
+	margin:0 auto;    /*外边距定义*/
+}
+#fa #main #ta .datalist .hei {
+    height:54px;    /*高度定义*/
+}
+#fa #main #ta .datalist td {
+	border-top:1px dashed #BDAC7D;    /*上边框定义*/
+}
+
+#fa #main #ta .datalist .t1 {
+	width:100px;    /*宽度定义*/
+	text-align:center;    /*文本居中*/
+	font-weight:800;    /*字体类型*/
+	line-height:26px;    /*行距定义*/
+}
+#fa #main #ta .datalist .t2 {
+	width:360px;    /*宽度定义*/
+}
+#fa #main #ta .datalist .t3 {
+	width:360px;    /*宽度定义*/
+}
+#fa #main #ta .datalist .t4 {
+	width:720px;    /*宽度定义*/
+}
+#fa #main #ta .datalist .t5 {
+	width:720px;    /*宽度定义*/
+	height:220px;    /*高度定义*/
+}
+
+#fa #main #ta #form2 label {
+    margin-left:25px;    /*左外边距定义*/
+}
+#fa #main #ta #form2 .kt {
+    width:303px;    /*宽度定义*/
+    height:26px;    /*高度定义*/
+    line-height:26px;    /*行距定义*/
+    color:#7B7B7B;    /*颜色定义*/
+    border:1px solid #7F9DB9;    /*边框定义*/
+    padding-left:6px;    /*内边距定义*/
+    background:#FCFCFC;
+}
+#fa #main #ta #form2 .ky {
+    width:150px;    /*宽度定义*/
+    height:26px;    /*高度定义*/
+    line-height:26px;    /*行距定义*/
+    color:#7B7B7B;    /*颜色定义*/
+    border:1px solid #7F9DB9;    /*边框定义*/
+    padding-left:6px;    /*内边距定义*/
+    background:#FCFCFC;
+}
+#fa #main #ta #form2 .di {
+    width:680px;    /*宽度定义*/
+    height:26px;    /*高度定义*/
+    line-height:26px;    /*行距定义*/
+    color:#7B7B7B;    /*颜色定义*/
+    border:1px solid #7F9DB9;    /*边框定义*/
+    padding-left:6px;    /*内边距定义*/
+    background:#FCFCFC;
+}
+
+#fa #main #ta #form2 textarea {
+    width:680px;    /*宽度定义*/
+    height:180px;    /*高度定义*/
+    line-height:21px;    /*行距定义*/
+    color:#7B7B7B;    /*颜色定义*/
+    border:1px solid #7F9DB9;    /*边框定义*/
+    padding:6px;    /*内边距定义*/
+    background:#FCFCFC;
+}
+
+#fa #main #ta #bot {
+    float:left;    /*向左浮动*/
+    width:145px;    /*宽度定义*/
+    height:42px;    /*高度定义*/
+    margin:40px 0 0 337px;    /*外边距定义*/
+    display:inline;    /*内联元素定义定义*/
+}
+
+
+
+
+
+
+
+
+

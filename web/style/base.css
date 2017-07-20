@@ -1,0 +1,128 @@
+﻿/*头部文件样式*/
+
+#header {
+    width:990px;    /*宽度定义*/
+    margin:0 auto;    /*外边距定义*/
+    overflow:hidden;    /*溢出隐藏*/
+}
+
+#header #logoarea {
+    float:left;    /*向左浮动*/
+    width:990px;    /*宽度定义*/
+    height:118px;    /*高度定义*/
+    background:#4C2A14 url(images/ta.gif) no-repeat right bottom;    /*背景定义*/
+}
+#header #logoarea #logo {
+    float:left;    /*向左浮动*/
+    margin:20px 0 0 21px;    /*外边距定义*/
+    background:url(images/logo2.jpg) no-repeat;    /*背景定义*/
+    display:inline;    /*内联元素*/
+}
+#header #logoarea #logo a {
+    display:block;    /*块元素定义*/
+    width:247px;    /*宽度定义*/
+    height:76px;    /*高度定义*/
+    text-indent:280px;    /*文本缩进*/
+    white-space:nowrap;    /*强制不换行*/
+    overflow:hidden;    /*溢出隐藏*/
+}
+
+#header #top {
+    float:left;    /*向左浮动*/
+    width:990px;    /*宽度定义*/
+    height:29px;    /*高度定义*/
+    background:url(images/beijing_2.jpg) repeat-x;    /*背景定义*/
+    overflow:hidden;    /*溢出隐藏*/
+}
+
+#banner {
+    float:left;    /*向左浮动*/
+    height:171px;    /*高度定义*/
+    width:988px;    /*宽度定义*/
+    border:1px solid #DDD4B7;
+    background:#fff url(images/headerbg.jpg) no-repeat 1px 1px;    /*背景定义*/
+    overflow:hidden;    /*溢出隐藏*/
+}
+
+/*框架文件样式*/
+
+#main {
+    width:990px;    /*宽度定义*/
+    margin:2px auto;    /*外边距定义*/
+    background:url(images/back.jpg) repeat-y;    /*背景定义*/
+    overflow:hidden;    /*溢出隐藏*/
+}
+
+#main #content {
+    float:right;    /*向右浮动*/
+    width:772px;    /*宽度定义*/
+    padding-bottom:20px;    /*底内边距定义*/
+    border-right:1px solid #CBBB8E;    /*边框定义*/
+    border-bottom:1px solid #CBBB8E;    /*边框定义*/
+    overflow:hidden;    /*溢出隐藏*/
+}
+
+#main #content #slist_title {
+    float:left;     /*向左浮动*/
+    width:773px;    /*宽度定义*/
+    height:33px;    /*高度定义*/
+    background:url(images/beijing_1.jpg) no-repeat;    /*背景定义*/
+}
+
+#main #content #slist_title h3 { 
+    line-height:33px;    /*行距*/
+    text-indent:26px;    /*文本缩进*/
+    color:#5D381F;    /*颜色定义*/
+}
+
+
+
+/*侧栏文件样式*/
+
+#main #sider {
+    float:left;    /*向左浮动*/
+    width:217px;    /*宽度定义*/
+    overflow:hidden;    /*溢出隐藏*/
+}
+#main #sider #kuang {
+    float:left;    /*向左浮动*/
+    width:217px;    /*宽度定义*/
+    height:34px;    /*高度定义*/
+    background:url(images/siderbg.jpg) no-repeat left top;    /*背景定义*/
+}
+
+#main #sider ul {
+    float:left;    /*向左浮动*/
+    width:217px;    /*宽度定义*/
+}
+#main #sider ul li a{
+    float:left;     /*向左浮动*/
+    height:34px;    /*高度定义*/
+    width:216px;    /*宽度定义*/  
+    text-align:center;    /*文本居中*/
+    line-height:34px;     /*行距定义*/
+    background:url(images/sider_bg_1.jpg) repeat-x;    /*背景定义*/
+}
+
+#main #sider ul li a:hover, #main #sider ul li a.cat {
+    width:217px;    /*宽度定义*/
+    height:34px;    /*高度定义*/
+    font-weight:800;    /*文本粗细*/
+    background:url(images/sider_bg_2.jpg) no-repeat;    /*背景定义*/
+}
+
+
+
+
+
+/*尾部文件样式*/
+
+#footer { 
+    background:#C4AE89 url(images/footer_bg.gif) repeat-x left top;     /*背景定义*/
+}
+
+
+
+
+
+

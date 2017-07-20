@@ -1,0 +1,334 @@
+﻿/*联系我们页面样式*/
+
+#lian #main .hi {
+    display:block;    /*块元素定义*/
+    width:289px;    /*宽度定义*/
+    text-indent:295px;    /*文本缩进*/
+    white-space:nowrap;    /*强制不换行*/
+    background:url(images/title.jpg) no-repeat 0 -60px;    /*背景定义*/
+}
+
+#lian #main .bos {
+    float:left;    /*向左浮动*/
+    width:724px;    /*宽度定义*/
+    background:#896B4E;    /*背景定义*/
+    padding-top:1px;
+    margin:0 0 29px 133px;
+    display:inline;
+}
+
+
+#lian #main .bos .box {
+    width:724px;    /*宽度定义*/
+    border:1px solid #BEAA98;	/*表格边框 */
+	border-collapse:collapse;	/* 边框重叠 */	
+	background:#fff;
+}
+#lian #main .bos .box td {
+    border:1px dashed #AE9782;	/*表格边框 */    
+}
+#lian #main .bos .box .d {
+    color:#522F18;    /*颜色定义*/
+    font-weight:800;    /*文本类型*/
+    text-indent:27px;    /*文本缩进*/
+    background:#fff url(images/gt.jpg);    /*背景调整*/
+    border:1px solid #AE9782;	/*表格边框 */
+    height:32px
+}
+#lian #main .bos .box .t1 {
+    width:167px;    /*宽度定义*/
+    color:#522F18;    /*颜色定义*/
+    font-weight:800;    /*文本类型*/
+    text-align:center;    /*文本缩进*/
+    background:#F0EADA;    /*背景调整*/
+    height:31px
+}
+#lian #main .bos .box .t2 {
+    width:557px;    /*宽度定义*/
+    text-indent:20px;    /*文本缩进*/
+    color:#000;    /*颜色定义*/
+    height:31px
+}
+
+#lian #main .bos .boxs {
+    width:724px;    /*宽度定义*/
+    border:1px solid #BEAA98;	/*表格边框 */
+	border-collapse:collapse;	/* 边框重叠 */	
+	background:#fff;
+}
+#lian #main .bos .boxs td {
+    border:1px dashed #AE9782;	/*表格边框 */    
+}
+#lian #main .bos .boxs .t1 {
+    width:167px;    /*宽度定义*/
+    color:#522F18;    /*颜色定义*/
+    font-weight:800;    /*文本类型*/
+    text-align:center;    /*文本缩进*/
+    background:#F0EADA;    /*背景调整*/
+}
+#lian #main .bos .boxs .t2 {
+    width:303px;    /*宽度定义*/
+    text-indent:20px;    /*文本缩进*/
+    color:#000;    /*颜色定义*/
+    font-size:15px;
+    padding:7px 0 3px 0;
+}
+#lian #main .bos .boxs .t3 {
+    width:264px;    /*宽度定义*/  
+    color:#000;    /*颜色定义*/
+    font-size:14px;
+}
+#lian #main .bos .boxs .f2 {
+    border-width:0;    /*边框定义*/
+}
+#lian #main .bos .boxs .f3 {
+    border-left-width:0;    /*边框定义*/
+    vertical-align:middle;
+}
+#lian #main .bos .boxs .f4 {
+    border-top-width:0;    /*边框定义*/
+    border-right-width:0;    /*边框定义*/
+}
+#lian #main .bos .boxs .t3 .g {
+    margin:0 auto;    /*外边距定义*/
+    width:235px;
+    border-width:0;    /*边框定义*/
+    background:#F7F7F7;    /*背景定义*/
+    line-height:22px;    /*行距定义*/
+}
+#lian #main .bos .boxs .t3 .g td {
+    padding:8px;
+}
+
+#lian #main h3 {
+    float:left;    /*向左浮动*/
+    width:832px;    /*宽度定义*/
+    margin:25px 0 6px 0;    /*底外边距定义*/
+    padding-left:85px;
+}
+
+#lian #main ul {
+    float:left;    /*向左浮动*/
+    width:832px;    /*宽度定义*/
+    padding-left:85px;
+}
+#lian #main ul li {
+    width:832px;    /*宽度定义*/
+    line-height:28px;    /*行距定义*/
+}
+
+
+
+/*法物流通页面样式*/
+
+#liu #main .hi {
+    display:block;    /*块元素定义*/
+    width:131px;    /*宽度定义*/
+    text-indent:140px;    /*文本缩进*/
+    white-space:nowrap;    /*强制不换行*/
+    background:url(images/title.jpg) no-repeat -395px -90px;    /*背景定义*/
+}
+
+#liu #main .bos1 {
+    float:left;    /*向左浮动*/
+    width:843px;    /*宽度定义*/
+    margin:0 0 58px 74px;    /*外边距定义*/
+    background:url(images/fj.jpg) no-repeat left top;
+    display:inline;
+}
+#liu #main .bos1 .box {
+    float:right;    /*向右浮动*/
+}
+
+#liu #main .bos2 {
+    float:left;    /*向左浮动*/
+    width:843px;    /*宽度定义*/
+    margin:0 0 58px 74px;    /*外边距定义*/
+    background:url(images/zs.jpg) no-repeat right top;
+    display:inline;
+}
+#liu #main .bos2 .box {
+    float:left;    /*向右浮动*/
+}
+
+#liu #main .bos3 {
+    float:left;    /*向左浮动*/
+    width:843px;    /*宽度定义*/
+    margin:0 0 58px 74px;    /*外边距定义*/
+    background:url(images/qt.jpg) no-repeat left top;
+    display:inline;
+}
+#liu #main .bos3 .box {
+    float:right;    /*向右浮动*/
+}
+
+#liu #main .box {
+    width:738px;    /*宽度定义*/
+    border-bottom:1px solid #C2B19D;	/*表格边框 */
+    padding-bottom:1px;
+	border-collapse:collapse;	/* 边框重叠 */	
+}
+#liu #main .box td {
+    background:url(images/line1.jpg) repeat-x left top;
+}
+#liu #main .box .t1 {
+    width:23px;    /*宽度定义*/
+    text-align:center;    /*文本缩进*/
+    vertical-align:middle;    /*水平居中*/
+}
+#liu #main .box .t2 {
+    width:223px;    /*宽度定义*/
+    font-size:15px;    /*文本大小*/
+    padding:12px 0 6px 0;    /*内边距定义*/
+}
+
+#liu #main #se {
+    float:left;
+    width:715px;    /*宽度定义*/
+    height:180px;    /*高度定义*/
+    background:#FAF9F5;    /*背景定义*/
+    border:3px solid #E1D9CF;    /*背景定义*/
+    margin:20px 0 0 134px;    /*外边距定义*/
+    display:inline;
+}
+
+#liu #main #se dd {
+    margin:25px 0 0 96px;    /*外边距定义*/
+}
+
+#liu #main #se .lk {
+    float:left;    /*向左浮动*/
+    margin:15px 0 0 32px;    /*外边距定义*/
+    width:651px;    /*宽度定义*/
+    height:90px;    /*高度定义*/
+    background:url(images/xueline.gif) repeat;    /*背景定义*/
+    display:inline;    /*内联元素*/
+}
+#liu #main #se .lk p {
+    text-indent:1em;    /*文本缩进*/
+    width:631px;    /*宽度定义*/
+    margin:12px;    /*外边距定义*/
+    color:#A0060C;    /*颜色定义*/
+}
+
+
+
+/*义工申请*/
+
+
+#yg #main .hi {
+    display:block;    /*块元素定义*/
+    width:127px;    /*宽度定义*/
+    text-indent:135px;    /*文本缩进*/
+    white-space:nowrap;    /*强制不换行*/
+    background:url(images/title.jpg) no-repeat -368px 0;    /*背景定义*/
+}
+#yg #main #rb {
+     width:760px;    /*宽度定义*/
+     margin:30px auto 0 auto;    /*左外边距定义*/
+}
+#yg #main .rar {
+     width:760px;    /*宽度定义*/
+     border:0;    /*边框定义*/
+     border-collapse:collapse;    /*边框压缩*/
+}
+#yg #main .rar tr {
+     border-bottom:1px dashed #BDAC7D;   /*下边框定义*/
+}
+#yg #main .rar .t1 {
+     height:48px;    /*高度定义*/
+     width:80px;    /*宽度定义*/
+     color:#402110;    /*颜色定义*/
+     font-weight:800;    /*粗字体*/
+}
+#yg #main .rar .t2 {
+     width:320px;    /*宽度定义*/
+}
+#yg #main .rar .t3 {
+     width:80px;    /*宽度定义*/
+     color:#402110;    /*颜色定义*/
+     font-weight:800;    /*粗字体*/
+}
+#yg #main .rar .t4 {
+     width:280px;    /*宽度定义*/
+}
+#yg #main .rar .ky {
+    width:250px;    /*宽度定义*/
+    height:26px;    /*高度定义*/
+    color:#7B7B7B;    /*颜色定义*/
+    border:1px solid #7F9DB9;    /*边框定义*/
+    line-height:26px;    /*行距定义*/
+    padding-left:10px;    /*左内边距定义*/
+    background:#FCFCFC;
+}
+#yg #main .rar label {
+    margin-right:20px;    /*内边距定义*/
+}
+#yg #main .rar .in {
+    margin-right:5px;    /*内边距定义*/
+}
+#yg #main .rar .b1 {
+     height:200px;    /*高度定义*/
+     width:80px;    /*宽度定义*/
+     color:#402110;    /*颜色定义*/
+     font-weight:800;    /*粗字体*/
+}
+#yg #main .rar .b2 {
+     width:680px;    /*宽度定义*/
+}
+#yg #main .txt {
+    width:650px;    /*宽度定义*/
+    height:150px;    /*高度定义*/
+    color:#7B7B7B;    /*颜色定义*/
+    border:1px solid #7F9DB9;    /*边框定义*/
+    line-height:18px;    /*行距定义*/
+    padding:10px;    /*内边距定义*/
+    background:#FCFCFC;
+}
+#yg #main #rb .bot {
+    float:left;    /*向左浮动*/
+    width:145px;    /*宽度定义*/
+    height:42px;    /*高度定义*/
+    margin:40px 0 0 337px;    /*外边距定义*/
+    display:inline;    /*内联元素定义定义*/
+}
+
+
+/*快速通道*/
+#zx {
+    background:url(images/1_188.jpg) repeat;    /*背景定义*/
+}
+
+#zx #main {
+    width:988px;    /*宽度定义*/
+    height:780px;
+    padding-bottom:35px;
+    background:#fff url(images/background.jpg) no-repeat left top;    /*背景定义*/
+    border-top:2px solid #845A42;    /*边框定义*/
+    border-left:1px solid #D6D6D6;    /*边框定义*/
+    border-bottom:1px solid #D6D6D6;    /*边框定义*/
+    border-right:1px solid #D6D6D6;    /*边框定义*/
+    margin:0 auto;    /*外边距定义*/
+    overflow:hidden;
+}
+#zx #main ul {
+    width:908px;    /*宽度定义*/
+    margin:90px auto 0 auto;    /*外边距定义*/
+}
+#zx #main ul li {
+    width:908px;    /*宽度定义*/
+    padding:17px 0 17px 0;
+    border-bottom:1px dashed #C2B19D;
+}
+#zx #main ul li a {
+    height:20px;
+    margin-left:24px;
+}
+#zx #botton {
+    width:988px;    /*宽度定义*/
+    height:45px;    /*高度定义*/
+    line-height:45px;    /*行距定义*/
+    margin:0 auto;    /*外边距定义*/
+    text-align:center;    /*文本居中*/
+    font-size:12px;    /*字体大小*/
+}

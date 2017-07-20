@@ -1,0 +1,41 @@
+#imain {
+    width: 990px;
+    padding-bottom: 120px;
+    margin: 0 auto;
+    background: #fff url(images/backgroundxw.jpg) no-repeat left top;
+    overflow: hidden;
+}
+/*标题*/
+#imain h3 {
+    font-size: 27px;
+    font-family: 黑体;
+    text-align: center;
+    margin-top: 75px;
+}
+/*副标题*/
+#imain h4 {
+    font-size: 14px;
+    margin-top: 15px;
+    text-align: center;
+    font-weight: normal;
+}
+/*图片备注*/
+#imain h6 {
+    font-size: 14px;
+    margin: 5px 0 25px 0;
+    text-align: center;
+    font-weight: normal;
+}
+#imain .content {
+    float: left;
+    width: 880px;
+    margin: 14px 0 0 55px;
+    display: inline;
+}
+#imain .content p {
+    font-size: 16px;
+    color: #000;
+    text-indent: 2em;
+    line-height: 32px;
+    margin-top: 10px;
+}

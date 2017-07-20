@@ -1,0 +1,288 @@
+﻿/*功德芳名页面样式*/
+
+#gong #main .hi {
+    display:block;    /*块元素定义*/
+    width:131px;    /*宽度定义*/
+    text-indent:145px;    /*文本缩进*/
+    white-space:nowrap;    /*强制不换行*/
+    background:url(images/title.jpg) no-repeat -260px -90px;    /*背景定义*/
+}
+
+#gong #main #box {
+    float:left;
+    width:842px;    /*宽度定义*/
+    height:578px;    /*高度定义*/
+    margin-left:74px;    /*外边距定义*/
+    background:url(images/gdbg.jpg) repeat-x;    /*背景定义*/
+    display:inline;    /*内联元素定义*/
+}
+
+
+#gong #main #box #demo {
+    float:left;    /*向左浮动*/
+    width:842px;    /*宽度定义*/
+    height:558px;    /*高度定义*/
+    margin-top:10px;    /*外边距定义*/
+    display:inline;    /*内联元素定义*/
+    overflow:hidden;    /*溢出隐藏*/   
+}
+#gong #main #box #demo table {
+    float:left;    /*向左浮动*/
+    width:842px;    /*宽度定义*/
+}
+#gong #main #box #demo #demo1 {
+    float:left;    /*向左浮动*/
+    width:842px;    /*宽度定义*/
+}
+#gong #main #box #demo #demo1 table {
+    float:left;    /*向左浮动*/
+    width:842px;    /*宽度定义*/
+    border:0;	/*表格边框 */
+	border-collapse:collapse;	/* 边框重叠 */
+}
+#gong #main #box #demo #demo1 table td {
+	border-bottom:1px dashed #BDAC7D;    /*底边框定义*/
+	background:#FBF9F4;    /*背景定义*/
+}
+#gong #main #box #demo #demo1 table .h {
+	width:4px;    /*宽度定义*/
+	background:#fff;    /*背景定义*/
+}
+#gong #main #box #demo #demo1 table .z1 {
+	width:354px;    /*宽度定义*/
+    padding:9px 0 9px 9px;    /*内边距定义*/
+    line-height:22px;    /*行距定义*/
+}
+#gong #main #box #demo #demo1 table .z2 {
+	width:65px;    /*宽度定义*/
+	padding:9px 9px 9px 0;    /*内边距定义*/
+	line-height:22px;    /*行距定义*/
+	text-align:center;    /*居中定义*/
+}
+
+
+
+
+#gong #main #se {
+    float:left;    /*向左浮动*/
+    width:716px;    /*宽度定义*/
+    height:220px;    /*高度定义*/
+    background:#FAF9F5;    /*背景定义*/
+    border:5px solid #E1D9CF;    /*背景定义*/
+    margin:70px 0 0 132px;    /*外边距定义*/
+    display:inline;    /*内联元素定义*/
+}
+#gong #main #se #se1 {
+    float:left;    /*向左浮动*/
+    margin:25px 0 0 113px;    /*外边距定义*/
+    width:490px;    /*宽度定义*/
+    height:31px;    /*高度定义*/
+    display:inline;    /*内联元素*/
+}
+    
+#gong #main #se #se1 .key {
+    float:left;    /*向左浮动*/ 
+    width:390px;    /*宽度定义*/
+    height:25px;    /*高度定义*/
+    line-height:25px;    /*行距定义*/
+    border:1px solid #8A6C51;    /*边框定义*/
+    padding-left:8px;    /*内边距定义*/
+}
+#gong #main #se #search_btn {
+    float:right;    /*向左浮动*/ 
+    width:83px;    /*宽度定义*/
+    height:27px;     /*高度定义*/
+}
+
+
+#gong #main #se .lk {
+    float:left;    /*向左浮动*/
+    margin:15px 0 0 32px;    /*外边距定义*/
+    width:651px;    /*宽度定义*/
+    height:120px;    /*高度定义*/
+    background:url(images/xueline.gif) repeat;    /*背景定义*/
+    display:inline;    /*内联元素*/
+}
+#gong #main #se .lk p {
+    text-indent:1em;    /*文本缩进*/
+    width:631px;    /*宽度定义*/
+    margin:12px;    /*外边距定义*/
+}
+
+
+/*查询页面样式*/
+
+
+
+#ming #header {
+    width:990px;    /*宽度定义*/
+    height:50px;    /*高度定义*/
+    border-top:6px solid #AB9780;    /*上边框定义*/
+    background:#E9E0C7;    /*背景定义*/
+    margin:0 auto;    /*外边距定义*/
+    overflow:hidden;    /*溢出隐藏*/
+}
+#ming #header ul {
+    float:left;    /*向左浮动*/
+    width:990px;    /*宽度定义*/
+    height:26px;    /*高度定义*/
+    margin-top:12px;    /*外边距定义*/
+    display:inline;    /*内联元素*/
+}
+#ming #header ul .li1 {
+    float:left;    /*向左浮动*/
+    width:47px;    /*宽度定义*/
+    height:26px;    /*高度定义*/
+    margin-left:42px;    /*外边距定义*/
+    text-indent:55px;    /*文本缩进*/
+    white-space:nowrap;    /*强制不换行*/
+    overflow:hidden;    /*溢出隐藏*/
+    background:url(images/ko3.jpg) no-repeat;    /*背景定义*/
+    display:inline;    /*内联元素*/
+}
+#ming #header ul .li2 {
+    float:left;    /*向左浮动*/
+    width:53px;    /*宽度定义*/
+    height:26px;    /*高度定义*/
+    margin-left:60px;    /*外边距定义*/
+    text-indent:60px;    /*文本缩进*/
+    white-space:nowrap;    /*强制不换行*/
+    overflow:hidden;    /*溢出隐藏*/
+    background:url(images/ko3.jpg) no-repeat -50px 0;    /*背景定义*/
+    display:inline;    /*内联元素*/
+}
+#ming #header ul .li3 {
+    float:left;    /*向左浮动*/
+    width:83px;    /*宽度定义*/
+    height:26px;    /*高度定义*/
+    margin-left:201px;    /*外边距定义*/
+    text-indent:90px;    /*文本缩进*/
+    white-space:nowrap;    /*强制不换行*/
+    overflow:hidden;    /*溢出隐藏*/
+    background:url(images/ko3.jpg) no-repeat -104px 0;    /*背景定义*/
+    display:inline;    /*内联元素*/
+}
+#ming #header ul .li4 {
+    float:left;    /*向左浮动*/
+    width:54px;    /*宽度定义*/
+    height:26px;    /*高度定义*/
+    margin-left:176px;    /*外边距定义*/
+    text-indent:60px;    /*文本缩进*/
+    white-space:nowrap;    /*强制不换行*/
+    overflow:hidden;    /*溢出隐藏*/
+    background:url(images/ko3.jpg) no-repeat -187px 0;    /*背景定义*/
+    display:inline;    /*内联元素*/
+}
+#ming #header ul .li5 {
+    float:left;    /*向左浮动*/
+    width:54px;    /*宽度定义*/
+    height:26px;    /*高度定义*/
+    margin-left:116px;    /*外边距定义*/
+    text-indent:60px;    /*文本缩进*/
+    white-space:nowrap;    /*强制不换行*/
+    overflow:hidden;    /*溢出隐藏*/
+    background:url(images/ko3.jpg) no-repeat -242px 0;    /*背景定义*/
+    display:inline;    /*内联元素*/
+}
+
+#ming #main {
+    width:990px;    /*宽度定义*/
+    background:#fff;    /*背景定义*/
+    padding:3px 0 3px 0;
+    margin:0 auto;    /*外边距定义*/
+}
+#ming #main #bro {
+    width:990px;    /*宽度定义*/
+    border:0;	/*表格边框 */
+	border-collapse:collapse;	/* 边框重叠 */
+}
+#ming #main #bro td {
+	border-bottom:1px dashed #BDAC7D;    /*底边框定义*/
+	background:#FBF9F4;    /*背景定义*/
+}
+#ming #main #bro .h {
+	width:4px;    /*宽度定义*/
+	background:#fff;    /*背景定义*/
+}
+#ming #main #bro .z1 {
+	width:132px;    /*宽度定义*/
+    padding:9px;    /*内边距定义*/
+    line-height:22px;    /*行距定义*/
+    text-align:center;    /*居中定义*/
+}
+#ming #main #bro .z2 {
+	width:82px;    /*宽度定义*/
+	padding:9px;    /*内边距定义*/
+	line-height:22px;    /*行距定义*/
+	text-align:center;    /*居中定义*/
+}
+#ming #main #bro .z3 {
+	width:516px;    /*宽度定义*/
+    padding:9px;    /*内边距定义*/
+    line-height:22px;    /*行距定义*/
+}
+#ming #main #bro .z4 {
+	width:105px;    /*宽度定义*/
+	padding:9px;    /*内边距定义*/
+	line-height:22px;    /*行距定义*/
+	text-align:center;    /*居中定义*/
+}
+#ming #main #bro .z5 {
+	width:298px;    /*宽度定义*/
+	padding:9px;    /*内边距定义*/
+	line-height:22px;    /*行距定义*/
+}
+
+#ming #footer {
+    width:990px;    /*宽度定义*/
+    height:7px;    /*高度定义*/
+    background:url(images/gdbg.jpg) repeat-x 0 -7px;    /*背景定义*/
+    margin:0 auto;    /*外边距定义*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

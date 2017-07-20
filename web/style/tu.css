@@ -1,0 +1,258 @@
+﻿/*图片中心页面样式*/
+
+#main #do {
+    width:878px;    /*宽度定义*/
+    height:64px;    /*高度定义*/
+    margin:72px auto 0 auto;    /*外边距定义*/
+    background:url(images/bgline.jpg) repeat-x;    /*背景定义*/
+}
+#main #do li {
+    float:left;    /*向左浮动*/
+    height:31px;    /*高度定义*/
+    margin:12px 0 0 21px;    /*外边距定义*/
+}
+#main #do .li1 a {
+    display:block;    /*块元素定义*/
+    width:163px;    /*宽度定义*/
+    height:31px;    /*高度定义*/
+    text-indent:170px;    /*文本缩进*/
+    white-space:nowrap;    /*强制不换行*/
+    background:url(images/imggb.jpg) 0 0;    /*背景定义*/
+    overflow:hidden;
+}
+#main #do .li2 a {
+    display:block;    /*块元素定义*/
+    width:113px;    /*宽度定义*/
+    height:31px;    /*高度定义*/
+    text-indent:120px;    /*文本缩进*/
+    white-space:nowrap;    /*强制不换行*/
+    background:url(images/imggb.jpg) -163px 0;    /*背景定义*/
+    overflow:hidden;
+}
+#main #do .li3 a {
+    display:block;    /*块元素定义*/
+    width:113px;    /*宽度定义*/
+    height:31px;    /*高度定义*/
+    text-indent:120px;    /*文本缩进*/
+    white-space:nowrap;    /*强制不换行*/
+    background:url(images/imggb.jpg) -276px 0;    /*背景定义*/
+    overflow:hidden;
+}
+#main #do .li4 a {
+    display:block;    /*块元素定义*/
+    width:113px;    /*宽度定义*/
+    height:31px;    /*高度定义*/
+    text-indent:120px;    /*文本缩进*/
+    white-space:nowrap;    /*强制不换行*/
+    background:url(images/imggb.jpg) -389px 0;    /*背景定义*/
+    overflow:hidden;
+}
+#main #do .li5 a {
+    display:block;    /*块元素定义*/
+    width:113px;    /*宽度定义*/
+    height:31px;    /*高度定义*/
+    text-indent:120px;    /*文本缩进*/
+    white-space:nowrap;    /*强制不换行*/
+    background:url(images/imggb.jpg) -502px 0;    /*背景定义*/
+    overflow:hidden;
+}
+#main #do .li6 a {
+    display:block;    /*块元素定义*/
+    width:113px;    /*宽度定义*/
+    height:31px;    /*高度定义*/
+    text-indent:120px;    /*文本缩进*/
+    white-space:nowrap;    /*强制不换行*/
+    background:url(images/imggb.jpg) -615px 0;    /*背景定义*/
+    overflow:hidden;
+}
+
+#main #do .li1 a:hover, #main #do .li1 a.cur {
+    display:block;    /*块元素定义*/
+    width:163px;    /*宽度定义*/
+    height:31px;    /*高度定义*/
+    text-indent:170px;    /*文本缩进*/
+    white-space:nowrap;    /*强制不换行*/
+    background:url(images/imgbg.jpg) 0 0;    /*背景定义*/
+    overflow:hidden;
+}
+#main #do .li2 a:hover, #main #do .li2 a.cur  {
+    display:block;    /*块元素定义*/
+    width:113px;    /*宽度定义*/
+    height:31px;    /*高度定义*/
+    text-indent:120px;    /*文本缩进*/
+    white-space:nowrap;    /*强制不换行*/
+    background:url(images/imgbg.jpg) -163px 0;    /*背景定义*/
+    overflow:hidden;
+}
+#main #do .li3 a:hover, #main #do .li3 a.cur  {
+    display:block;    /*块元素定义*/
+    width:113px;    /*宽度定义*/
+    height:31px;    /*高度定义*/
+    text-indent:120px;    /*文本缩进*/
+    white-space:nowrap;    /*强制不换行*/
+    background:url(images/imgbg.jpg) -276px 0;    /*背景定义*/
+    overflow:hidden;
+}
+#main #do .li4 a:hover, #main #do .li4 a.cur  {
+    display:block;    /*块元素定义*/
+    width:113px;    /*宽度定义*/
+    height:31px;    /*高度定义*/
+    text-indent:120px;    /*文本缩进*/
+    white-space:nowrap;    /*强制不换行*/
+    background:url(images/imgbg.jpg) -389px 0;    /*背景定义*/
+    overflow:hidden;
+}
+#main #do .li5 a:hover, #main #do .li5 a.cur  {
+    display:block;    /*块元素定义*/
+    width:113px;    /*宽度定义*/
+    height:31px;    /*高度定义*/
+    text-indent:120px;    /*文本缩进*/
+    white-space:nowrap;    /*强制不换行*/
+    background:url(images/imgbg.jpg) -502px 0;    /*背景定义*/
+    overflow:hidden;
+}
+#main #do .li6 a:hover, #main #do .li6 a.cur  {
+    display:block;    /*块元素定义*/
+    width:113px;    /*宽度定义*/
+    height:31px;    /*高度定义*/
+    text-indent:120px;    /*文本缩进*/
+    white-space:nowrap;    /*强制不换行*/
+    background:url(images/imgbg.jpg) -615px 0;    /*背景定义*/
+    overflow:hidden;
+}
+
+
+/*图片区域样式*/
+
+#main #conter {
+    float:left;    /*向右浮动*/
+    width:878px;    /*宽度定义*/
+    margin-left:56px;    /*外边距定义*/
+    display:inline;    /*内联元素定义*/
+}
+#main #conter .mr {
+    float:left;    /*向右浮动*/
+    width:878px;    /*宽度定义*/
+    background:url(images/tubg.jpg) repeat-y;    /*背景定义*/
+    display:inline;    /*内联元素定义*/
+}
+#main #conter .mr .sider {
+    float:left;    /*向右浮动*/
+    width:44px;    /*宽度定义*/
+}
+#main #conter .mr .sider .itop {
+    float:left;    /*向右浮动*/
+    width:44px;    /*宽度定义*/
+    height:37px;    /*高度定义*/
+    background:url(images/tubg1.jpg) no-repeat left top;    /*背景定义*/  
+}
+#main #conter .mr .sider .ibot {
+    float:left;    /*向右浮动*/
+    width:18px;    /*宽度定义*/
+    font-family:黑体;    /*字体类型*/
+    font-size:17px;    /*字体大小*/
+    margin:8px 0 0 14px;
+}
+
+#main #conter .mr .co {
+    float:right;    /*向左浮动*/
+    width:828px;    /*宽度定义*/
+}
+#main #conter .mr .co .img_box {
+    float:left;    /*向左浮动*/
+    width:198px;    /*宽度定义*/
+    height:159px;    /*高度定义*/
+    border:1px solid #D9D9D9;    /*边框定义*/
+    margin:21px 0 0 7px;    /*外边距定义*/
+    background:url(images/imgback.jpg);
+    display:inline;    /*内联元素定义*/
+}
+#main #conter .mr .co .img_box a {
+    float:left;    /*向左浮动*/
+    margin:3px 0 3px 3px;    /*外边距定义*/
+    display:inline;    /*内联元素定义*/
+}
+
+.tit {
+    float:left;    /*向左浮动*/
+    width:178px;    /*宽度定义*/
+    margin-left:10px;
+    line-height:27px;    /*行距定义*/
+    text-align:center;    /*文本居中*/
+    white-space:nowrap;    /*强制不换行*/
+    text-overflow:ellipsis;    /*省略定义*/
+    font-size:12px;    /*字体定义*/
+    color:#666666;    /*颜色定义*/
+    overflow:hidden;    /*溢出隐藏*/
+}
+
+
+
+/*图片集*/
+#zx {
+    background:url(images/1_188.jpg) repeat;    /*背景定义*/
+}
+
+#zx #main {
+    width:988px;    /*宽度定义*/
+    padding-bottom:35px;
+    background:#fff url(images/background.jpg) no-repeat left top;    /*背景定义*/
+    border-top:2px solid #845A42;    /*边框定义*/
+    border-left:1px solid #D6D6D6;    /*边框定义*/
+    border-bottom:1px solid #D6D6D6;    /*边框定义*/
+    border-right:1px solid #D6D6D6;    /*边框定义*/
+    margin:0 auto;    /*外边距定义*/
+    overflow:hidden;
+}
+
+#zx #botton {
+    width:988px;    /*宽度定义*/
+    height:45px;    /*高度定义*/
+    line-height:45px;    /*行距定义*/
+    margin:0 auto;    /*外边距定义*/
+    text-align:center;    /*文本居中*/
+    font-size:12px;    /*字体大小*/
+}
+
+
+/*图片中心样式*/
+
+.lxfscroll {
+	width:880px;    /*宽度定义*/
+	margin:45px auto 0 auto;    /*外边距定义*/
+	overflow:hidden;    /*溢出隐藏*/
+	position:relative;    /*定位*/
+	height:960px;    /*高度定义*/
+}
+.button {
+	margin:0 auto 15px auto;    /*外边距定义*/
+	width:400px;    /*高度定义*/
+	text-align:center;    /*文本居中*/
+	padding-top:10px;    /*内边距定义*/
+}
+
+.button input {
+	margin:0 15px 0 15px;
+    font-weight:800;    /*字体变粗*/
+    color:#59351F;
+    border:1px solid #BFAE82;    /*边框定义*/
+    padding:6px 15px;    /*内边距定义*/
+    background:#F6F4EE;    /*背景定义*/
+}
+
+#zx #main #container li {
+	width:880px;    /*宽度定义*/
+	position:absolute;    /*定位*/
+	text-align:center;    /*文本居中*/
+	background:#EEEEEE;    /*背景定义*/
+	padding-top:25px;    /*上内边距定义*/
+}
+#zx #main #container li img {
+	border:1px solid #D6D6D6;    /*边框定义*/
+	padding:4px;    /*内边距定义*/
+	background:#fff;    /*背景定义*/
+}
+#zx #main #container li p {
+	padding:25px 60px 60px 60px;    /*内边距定义*/
+	line-height:26px;    /*行距定义*/
+}

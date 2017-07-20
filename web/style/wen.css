@@ -1,0 +1,191 @@
+﻿/*留言板首页banner文件样式*/
+
+#banner dl {
+    float:left;    /*向左浮动*/
+    width:866px;    /*宽度定义*/
+    height:124px;    /*高度定义*/
+    margin:27px 0 0 62px;    /*内边距定义*/
+    display:inline;    /*内联元素*/
+}
+#banner dl dd {
+    float:left;    /*向左浮动*/
+    width:59px;    /*宽度定义*/
+    height:124px;    /*高度定义*/
+    background:url(images/wd.jpg) no-repeat;    /*背景定义*/
+    text-indent:60px;    /*文本缩进*/
+    white-space:nowrap;    /*强制不换行*/
+    overflow:hidden;    /*溢出隐藏*/
+}
+#banner dl dt {
+    float:left;    /*向左浮动*/
+    margin:4px 0 0 32px;    /*外边距定义*/
+    display:inline;    /*内联元素*/
+}
+#banner .h1 a {
+    display:block;    /*块元素定义*/
+    width:92px;    /*宽度定义*/
+    height:117px;    /*高度定义*/
+    text-indent:99px;    /*文本缩进*/
+    white-space:nowrap;    /*强制不换行*/
+    overflow:hidden;    /*溢出隐藏*/
+    background:url(images/wenti_bg.jpg) no-repeat 0 0;    /*背景定义*/
+}
+#banner .h2 a {
+    display:block;    /*块元素定义*/
+    width:122px;    /*块元素定义*/
+    height:117px;    /*高度定义*/
+    text-indent:140px;    /*文本缩进*/
+    white-space:nowrap;    /*强制不换行*/
+    overflow:hidden;    /*溢出隐藏*/
+    background:url(images/wenti_bg.jpg) no-repeat -92px 0;    /*背景定义*/
+}
+#banner .h3 a {
+    display:block;    /*块元素定义*/
+    width:122px;    /*宽度定义*/
+    height:117px;    /*高度定义*/
+    text-indent:140px;    /*文本缩进*/
+    white-space:nowrap;    /*强制不换行*/
+    overflow:hidden;    /*溢出隐藏*/
+    background:url(images/wenti_bg.jpg) no-repeat -214px 0;    /*背景定义*/
+}
+#banner .h4 a {
+    display:block;    /*块元素定义*/
+    width:92px;    /*宽度定义*/
+    height:117px;    /*高度定义*/
+    text-indent:99px;    /*文本缩进*/
+    white-space:nowrap;    /*强制不换行*/
+    overflow:hidden;    /*溢出隐藏*/
+    background:url(images/wenti_bg.jpg) no-repeat -336px 0;    /*背景定义*/
+}
+#banner .h5 a {
+    display:block;    /*块元素定义*/
+    width:92px;    /*宽度定义*/
+    height:117px;    /*高度定义*/
+    text-indent:99px;    /*文本缩进*/
+    white-space:nowrap;    /*强制不换行*/
+    overflow:hidden;    /*溢出隐藏*/
+    background:url(images/wenti_bg.jpg) no-repeat -428px 0;    /*背景定义*/
+}
+#banner .h6 a {
+    display:block;    /*块元素定义*/
+    width:92px;    /*宽度定义*/
+    height:117px;    /*高度定义*/
+    text-indent:99px;    /*文本缩进*/
+    white-space:nowrap;    /*强制不换行*/
+    overflow:hidden;    /*溢出隐藏*/
+    background:url(images/wenti_bg.jpg) no-repeat -520px 0;    /*背景定义*/
+}
+
+
+#banner .h1 a:hover, #banner .h1 a.cur {
+    display:block;    /*块元素定义*/
+    width:92px;    /*宽度定义*/
+    height:117px;    /*高度定义*/
+    text-indent:100px;    /*文本缩进*/
+    white-space:nowrap;     /*强制不换行*/
+    overflow:hidden;    /*溢出隐藏*/
+    background:url(images/wenti_bg1.jpg) no-repeat 0 0;    /*背景定义*/
+}
+#banner .h2 a:hover, #banner .h2 a.cur {
+    display:block;    /*块元素定义*/
+    width:122px;    /*宽度定义*/
+    height:117px;    /*高度定义*/
+    text-indent:140px;    /*文本缩进*/
+    white-space:nowrap;     /*强制不换行*/
+    overflow:hidden;    /*溢出隐藏*/
+    background:url(images/wenti_bg1.jpg) no-repeat -92px 0;    /*背景定义*/
+}
+#banner .h3 a:hover, #banner .h3 a.cur {
+    display:block;    /*块元素定义*/
+    width:122px;    /*宽度定义*/
+    height:117px;    /*高度定义*/
+    text-indent:140px;    /*文本缩进*/
+    white-space:nowrap;     /*强制不换行*/
+    overflow:hidden;    /*溢出隐藏*/
+    background:url(images/wenti_bg1.jpg) no-repeat -214px 0;    /*背景定义*/
+}
+#banner .h4 a:hover, #banner .h4 a.cur {
+    display:block;    /*块元素定义*/
+    width:92px;    /*宽度定义*/
+    height:117px;    /*高度定义*/
+    text-indent:100px;    /*文本缩进*/
+    white-space:nowrap;     /*强制不换行*/
+    overflow:hidden;    /*溢出隐藏*/
+    background:url(images/wenti_bg1.jpg) no-repeat -336px 0;    /*背景定义*/
+}
+#banner .h5 a:hover, #banner .h5 a.cur {
+    display:block;    /*块元素定义*/
+    width:92px;    /*宽度定义*/
+    height:117px;    /*高度定义*/
+    text-indent:100px;    /*文本缩进*/
+    white-space:nowrap;     /*强制不换行*/
+    overflow:hidden;    /*溢出隐藏*/
+    background:url(images/wenti_bg1.jpg) no-repeat -428px 0;    /*背景定义*/
+}
+#banner .h6 a:hover, #banner .h6 a.cur {
+    display:block;    /*块元素定义*/
+    width:92px;    /*宽度定义*/
+    height:117px;    /*高度定义*/
+    text-indent:100px;    /*文本缩进*/
+    white-space:nowrap;     /*强制不换行*/
+    overflow:hidden;    /*溢出隐藏*/
+    background:url(images/wenti_bg1.jpg) no-repeat -520px 0;    /*背景定义*/
+}
+
+
+/*常见问题首页问答样式*/
+
+.accordion {
+	float:left;    /*向左浮动*/
+	width:699px;    /*宽度定义*/
+	margin:25px 0 10px 36px;    /*外边距定义*/
+	border-bottom:1px dashed #B9A99F;    /*底边框定义*/
+	display:inline;    /*内联元素定义*/
+}
+
+.accordion h2 {
+	float:left;    /*向左浮动*/
+	height:28px;    /*高度定义*/
+	line-height:28px;    /*行距定义*/
+	padding:0 15px 0 15px;    /*内边距定义*/
+	margin-bottom:6px;    /*外边距定义*/
+	color:#A5080E;    /*颜色定义*/
+	background:#E9E8E1;    /*背景定义*/
+}
+
+.accordion dl {
+    float:left;    /*向左浮动*/
+}
+.accordion dd {
+	float:left;    /*向左浮动*/
+	width:685px;    /*宽度定义*/
+	height:37px;    /*高度定义*/
+	line-height:37px;    /*行距定义*/
+	text-indent:15px;    /*文本缩进*/
+	text-overflow:ellipsis;    /*省略定义*/
+	white-space:nowrap;    /*强制不换行*/
+	border-top:1px dashed #B9A99F;    /*上边框定义*/
+	cursor:pointer;    /*鼠标样式*/
+	overflow:hidden;    /*溢出隐藏*/
+}
+.accordion dd:hover {
+	color:#A5080E;    /*颜色定义*/
+}
+
+.accordion dt {
+	float:left;    /*向左浮动*/
+	background:#FAF9F6;    /*背景定义*/
+	padding:10px 11px 20px 30px;    /*内边距定义*/
+	line-height:22px;    /*行距定义*/
+	border-top:1px dashed #B9A99F;    /*上边框定义*/
+}
+
+.accordion dt h4 {
+	line-height:24px;    /*行距定义*/
+}
+.accordion dt p {
+    padding-top:15px;    /*上内边距定义*/
+	line-height:24px;    /*行距定义*/
+}
+
+

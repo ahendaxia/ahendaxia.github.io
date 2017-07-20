@@ -1,0 +1,166 @@
+﻿/*公告页面样式*/
+
+
+#main #mp3 {
+    float:right;    /*向左浮动*/
+    padding:3px 8px 3px 8px;    /*内边距定义*/
+    border:1px dashed #D3CDC7;
+    margin:10px 35px 0 0;        /*外边距定义*/
+    background:#fff;
+    display:inline;    /*内联元素定义*/   
+}
+
+
+#main h3 {
+    font-size:28px;    /*字体大小*/ 
+    font-family:楷体_GB2312;    /*字体样式*/ 
+    text-align:center;    /*文本居中*/   
+    margin-top:75px;     /*外边距定义*/
+}
+#main h4 {
+    font-size:14px;    /*字体大小*/ 
+    margin-top:10px;        /*外边距定义*/
+    text-align:center;    /*文本居中*/ 
+    font-weight:normal;    /*字体类型*/
+}
+
+#main .box {
+    float:left;    /*向左浮动*/
+    width:880px;    /*宽度定义*/
+    margin:14px 0 0 55px;    /*外边距定义*/
+    display:inline;    /*内联元素定义*/
+}
+#main .box p {
+    font-size:16px;    /*字体大小*/
+    color:#000;    /*颜色定义*/
+    text-indent:2em;   /*首行缩进*/
+    line-height:32px;    /*行距定义*/
+    margin-top:14px;    
+}
+
+#main .box .fot {
+    float:left;    /*向左浮动*/
+    width:880px;    /*宽度定义*/
+}
+#main .box .fot p {   
+    font-size:16px;    /*字体大小*/
+    color:#000;     /*颜色定义*/
+    line-height:29px;    /*行距定义*/
+    text-align:right;    /*向右对齐*/
+}
+#main .box .fot .r {
+    margin:0;    /*上外边距定义*/
+    font-size:16px;    /*字体大小*/
+    color:#000;     /*颜色定义*/
+    line-height:29px;    /*行距定义*/
+    text-align:right;    /*向右对齐*/
+}
+
+#main .box .img {
+    width:659px;    /*宽度定义*/
+    margin:0 auto;
+}
+#main .box .img dd {
+    margin-top:30px;
+    border:0;
+}
+ 
+#main .box .img dt {    
+    width:401px;
+    background:#F0F0F0;    /*背景定义*/
+    border:1px dashed #e1e1e1;    /*边框定义*/
+    font-weight:800;    /*文本类型*/
+    line-height:26px;
+    text-align:center;    /*居中定义*/
+    margin:3px auto 30px auto;    /*上外边距定义*/
+}   
+    
+    
+/*详细公告页面样式*/
+
+#more #main .hi {
+    display:block;    /*块元素定义*/
+    width:129px;    /*宽度定义*/
+    text-indent:135px;    /*文本缩进*/
+    white-space:nowrap;    /*强制不换行*/
+    background:url(images/title.jpg) no-repeat -466px -30px;    /*背景定义*/
+}
+#more #main .ul {
+    width:883px;    /*宽度定义*/
+    margin:15px auto 0 auto;    /*外边距定义*/
+    border-collapse:collapse;	/* 边框重叠 */
+    border:0;
+}
+#more #main .ul tr {
+    height:40px;    /*高度定义*/
+    background:url(images/line3.gif) repeat left top;    /*背景定义*/
+}
+#more #main .ul .ou {
+    height:40px;    /*高度定义*/
+    background:#F9F7F2 url(images/line3.gif) repeat left top;    /*背景定义*/
+}
+
+#more #main .ul .d1 {
+    width:41px;    /*宽度定义*/
+    vertical-align:middle;    /*居中定义*/
+    text-align:center;
+}
+#more #main .ul .d2 a {
+    width:762px;    /*宽度定义*/
+    color:#000;
+}
+#more #main .ul .d2 a:hover {
+    width:752px;    /*宽度定义*/
+    border-bottom:1px dashed #850D0D;    /*边框定义*/
+    color:#850D0D;    /*颜色定义*/
+}
+#more #main .ul .d3 {
+    width:100px;    /*宽度定义*/
+    color:#737373;    /*颜色定义*/
+}
+
+.red {
+    font-size:15px;    /*字体大小*/
+    margin-right:10px;    /*右外边距定义*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    

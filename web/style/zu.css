@@ -1,0 +1,308 @@
+﻿/*怀念恩师页面样式*/
+
+#huai #main #ok {
+    float:left;    /*向左浮动*/
+    width:883px;    /*宽度定义*/
+    margin:15px 0 0 53px;    /*外边距定义*/
+    padding-top:25px;    /*顶内边距定义*/
+    display:inline;
+}
+#huai #main #ok .ul {
+    width:883px;    /*宽度定义*/
+
+    border-collapse:collapse;	/* 边框重叠 */
+    border:0;
+}
+#huai #main #ok .ul tr {
+    height:40px;    /*高度定义*/
+    background:url(images/line3.gif) repeat left top;    /*背景定义*/
+}
+#huai #main #ok .ul .ou {
+    height:40px;    /*高度定义*/
+    background:#F9F7F2 url(images/line3.gif) repeat left top;    /*背景定义*/
+}
+
+#huai #main #ok .ul .d1 {
+    width:41px;    /*宽度定义*/
+    vertical-align:middle;    /*居中定义*/
+    text-align:center;
+}
+#huai #main #ok .ul .d2 a {
+    width:762px;    /*宽度定义*/
+    color:#000;
+}
+#huai #main #ok .ul .d2 a:hover {
+    width:762px;    /*宽度定义*/
+    padding-bottom:2px;
+    border-bottom:1px dashed #C03631;    /*边框定义*/
+    color:#b20000;    /*颜色定义*/
+}
+#huai #main #ok .ul .d3 {
+    width:100px;    /*宽度定义*/
+    color:#737373;    /*颜色定义*/
+}
+
+
+/*历代祖师页面样式*/
+
+#main #do {
+    width:878px;    /*宽度定义*/
+    height:64px;    /*高度定义*/
+    margin:72px auto 0 auto;    /*外边距定义*/
+    background:url(images/bgline.jpg) repeat-x left bottom;    /*背景定义*/
+}
+#main #do .li1 {
+    float:left;    /*向左浮动*/
+    height:35px;    /*高度定义*/
+    margin:10px 0 0 210px;    /*外边距定义*/
+    display:inline;    /*内联元素定义*/
+}
+#main #do .li2 {
+    float:right;    /*向左浮动*/
+    height:35px;    /*高度定义*/
+    margin:10px 250px 0 0;    /*外边距定义*/
+    display:inline;    /*内联元素定义*/
+}
+#main #do .li1 a {
+    display:block;    /*块元素定义*/
+    width:195px;    /*宽度定义*/
+    height:35px;    /*高度定义*/
+    text-indent:200px;    /*文本缩进*/
+    white-space:nowrap;    /*强制不换行*/
+    background:url(images/zsgb.jpg) 0 0;    /*背景定义*/
+    overflow:hidden;
+}
+#main #do .li2 a {
+    display:block;    /*块元素定义*/
+    width:121px;    /*宽度定义*/
+    height:35px;    /*高度定义*/
+    text-indent:125px;    /*文本缩进*/
+    white-space:nowrap;    /*强制不换行*/
+    background:url(images/zsgb.jpg) -195px 0;    /*背景定义*/
+    overflow:hidden;
+}
+
+#main #do .li1 a:hover, #main #do .li1 a.cur {
+    display:block;    /*块元素定义*/
+    width:195px;    /*宽度定义*/
+    height:35px;    /*高度定义*/
+    text-indent:200px;    /*文本缩进*/
+    white-space:nowrap;    /*强制不换行*/
+    background:url(images/zsbg.jpg) 0 0;    /*背景定义*/
+    overflow:hidden;
+}
+#main #do .li2 a:hover, #main #do .li2 a.cur  {
+    display:block;    /*块元素定义*/
+    width:121px;    /*宽度定义*/
+    height:35px;    /*高度定义*/
+    text-indent:125px;    /*文本缩进*/
+    white-space:nowrap;    /*强制不换行*/
+    background:url(images/zsbg.jpg) -195px 0;    /*背景定义*/
+    overflow:hidden;
+}
+
+#zushi #main .sty {
+    float:left;    /*向右浮动*/
+    width:869px;    /*宽度定义*/
+    height:280px;    /*高度定义*/
+    background:url(images/line4.jpg) no-repeat left bottom;    /*背景定义*/
+    margin:30px 0 0 66px;
+    display:inline;    /*内联元素定义*/  
+}
+#zushi #main .sty .st {
+    float:left;    /*向右浮动*/
+    width:869px;    /*宽度定义*/
+    height:270px;    /*高度定义*/
+    background:url(images/dayu.jpg) no-repeat right top;    /*背景定义*/
+}
+#zushi #main .st .ko {
+    float:left;    /*向右浮动*/
+    width:662px;    /*宽度定义*/
+    height:145px;    /*高度定义*/
+    background:url(images/zsline.gif) repeat;    /*背景定义*/
+    margin-top:30px;    /*上外边距定义*/
+    border-bottom:4px solid #F4F0E5;    /*下边框定义*/
+}
+#zushi #main .st .ko p {
+    width:657px;
+    text-indent:2em;    /*文本缩进*/
+    line-height:29px;    /*行距定义*/
+    margin-left:7px;    /*外边距定义*/
+    color:#522F18;    /*颜色定义*/
+}
+#zushi #main .st .ko p a:hover {
+    color:#850D0D;    /*颜色定义*/
+    border-bottom:1px dashed #820D0D;    /*底边框定义*/
+}
+
+#zushi #main .st ul {
+    float:left;    /*向左浮动*/
+    height:80px;    /*高度定义*/
+    margin-top:9px;    /*上外边距定义*/
+    width:662px;    /*宽度定义*/
+}
+#zushi #main .st ul li {
+    float:left;    /*向左浮动*/  
+    margin-right:123px;    /*右外边距定义*/
+    margin-left:20px;    /*左外边距定义*/
+    display:inline;    /*内联元素定义*/  
+}
+#zushi #main .st ul .lt {
+    margin-right:0px;    /*上外边距定义*/
+}
+
+#zushi #main .sty .st ul .l1 a {
+    display:block;    /*块元素定义*/
+    width:100px;    /*宽度定义*/
+    height:63px;   /*高度定义*/  
+    text-indent:105px;    /*文本缩进*/
+    white-space:nowrap;    /*强制不换行*/
+    background:url(images/zulie.jpg) no-repeat 0 0;    /*背景定义*/
+    overflow:hidden;
+}
+#zushi #main .sty .st ul .l2 a {
+    display:block;    /*块元素定义*/
+    width:112px;    /*宽度定义*/
+    height:66px;   /*高度定义*/  
+    text-indent:115px;    /*文本缩进*/
+    white-space:nowrap;    /*强制不换行*/
+    background:url(images/zulie.jpg) no-repeat -444px 0;    /*背景定义*/
+    overflow:hidden;
+}
+#zushi #main .sty .st ul .lt a {
+    display:block;    /*块元素定义*/
+    width:119px;    /*宽度定义*/
+    height:65px;   /*高度定义*/  
+    text-indent:122px;    /*文本缩进*/
+    white-space:nowrap;    /*强制不换行*/
+    background:url(images/zulie.jpg) no-repeat -559px 0;    /*背景定义*/
+    overflow:hidden;
+}
+
+
+
+
+#zushi #main .sty1 {
+    float:left;    /*向右浮动*/
+    width:869px;    /*宽度定义*/
+    height:280px;    /*高度定义*/
+    background:url(images/line5.jpg) no-repeat right bottom;    /*背景定义*/
+    margin:40px 0 10px 66px;
+    display:inline;    /*内联元素定义*/  
+}
+#zushi #main .sty1 .st {
+    float:left;    /*向右浮动*/
+    width:869px;    /*宽度定义*/
+    height:272px;    /*高度定义*/
+    background:url(images/renzhi.jpg) no-repeat left top;    /*背景定义*/
+}
+#zushi #main .sty1 .st .ko {
+    float:right;    /*向右浮动*/
+    width:662px;    /*宽度定义*/
+    height:145px;    /*高度定义*/
+    background:url(images/zsline.gif) repeat;    /*背景定义*/
+    margin-top:30px;    /*上外边距定义*/
+    border-bottom:4px solid #F4F0E5;    /*下边框定义*/
+}
+
+#zushi #main .sty1 .st ul {
+    float:right;    /*向左浮动*/
+    height:80px;    /*高度定义*/
+    margin-top:9px;    /*上外边距定义*/
+    width:662px;    /*宽度定义*/
+}
+#zushi #main .sty1 .st ul .l1 a {
+    display:block;    /*块元素定义*/
+    width:100px;    /*宽度定义*/
+    height:63px;   /*高度定义*/  
+    text-indent:105px;    /*文本缩进*/
+    white-space:nowrap;    /*强制不换行*/
+    background:url(images/zulie.jpg) no-repeat -103px 0;    /*背景定义*/
+    overflow:hidden;
+}
+#zushi #main .sty1 .st ul .l2 a {
+    display:block;    /*块元素定义*/
+    width:122px;    /*宽度定义*/
+    height:72px;   /*高度定义*/  
+    text-indent:125px;    /*文本缩进*/
+    white-space:nowrap;    /*强制不换行*/
+    background:url(images/zulie.jpg) no-repeat -314px 0;    /*背景定义*/
+    overflow:hidden;
+}
+#zushi #main .sty1 .st ul .lt a {
+    display:block;    /*块元素定义*/
+    width:112px;    /*宽度定义*/
+    height:66px;   /*高度定义*/  
+    text-indent:115px;    /*文本缩进*/
+    white-space:nowrap;    /*强制不换行*/
+    background:url(images/zulie.jpg) no-repeat -444px 0;    /*背景定义*/
+    overflow:hidden;
+}
+
+
+
+
+#zushi #main .sty2 {
+    float:left;    /*向右浮动*/
+    width:869px;    /*宽度定义*/
+    height:285px;    /*高度定义*/
+    background:url(images/line4.jpg) no-repeat left bottom;    /*背景定义*/
+    margin:30px 0 0 66px;
+    display:inline;    /*内联元素定义*/  
+}
+#zushi #main .sty2 .st {
+    float:left;    /*向右浮动*/
+    width:869px;    /*宽度定义*/
+    height:272px;    /*高度定义*/
+    background:url(images/yuan.jpg) no-repeat right top;    /*背景定义*/
+}
+
+
+
+
+#zushi #main .sty2 .st ul li {
+    float:left;    /*向左浮动*/  
+    margin-right:32px;    /*右外边距定义*/
+    margin-left:20px;    /*左外边距定义*/
+    display:inline;    /*内联元素定义*/  
+}
+
+#zushi #main .sty2 .st ul .l1 a {
+    display:block;    /*块元素定义*/
+    width:100px;    /*宽度定义*/
+    height:63px;   /*高度定义*/  
+    text-indent:105px;    /*文本缩进*/
+    white-space:nowrap;    /*强制不换行*/
+    background:url(images/zulie.jpg) no-repeat -209px 0;    /*背景定义*/
+    overflow:hidden;
+}
+
+#zushi #main .sty2 .st ul .l2 a {
+    display:block;    /*块元素定义*/
+    width:122px;    /*宽度定义*/
+    height:72px;   /*高度定义*/  
+    text-indent:125px;    /*文本缩进*/
+    white-space:nowrap;    /*强制不换行*/
+    background:url(images/zulie.jpg) no-repeat -314px 0;    /*背景定义*/
+    overflow:hidden;
+}
+
+#zushi #main .sty2 .st ul .l3 a {
+    display:block;    /*块元素定义*/
+    width:112px;    /*宽度定义*/
+    height:66px;   /*高度定义*/  
+    text-indent:115px;    /*文本缩进*/
+    white-space:nowrap;    /*强制不换行*/
+    background:url(images/zulie.jpg) no-repeat -444px 0;    /*背景定义*/
+    overflow:hidden;
+}
+
+#zushi #main .sty2 .st ul .lt a {
+    display:block;    /*块元素定义*/
+    width:119px;    /*宽度定义*/
+    height:65px;   /*高度定义*/  
+    text-indent:122px;    /*文本缩进*/
+    white-space:nowrap;    /*强制不换行*/
+    background:url(images/zulie.jpg) no-repeat -559px 0;    /*背景定义*/
+    overflow:hidden;
+}

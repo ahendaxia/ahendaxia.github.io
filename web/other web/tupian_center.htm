@@ -1,0 +1,60 @@
+﻿<<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head>
+    <title>图片中心 - 心中心道场</title>   
+    <link rel="Stylesheet" type="text/css" href="../style/css.css" />
+    <link rel="Stylesheet" type="text/css" href="../style/tu.css" />
+    <!--图片切换JS开始-->
+    <script src="../style/img/jquery-1.6.4.min.js" type="text/javascript"></script>
+    <!--图片切换JS结束-->
+    <script type="text/javascript">
+     /*图片切换JS开始*/
+    $(function() {
+        var i = 0;
+        var li = $(".lxfscroll li");
+        var n = li.length - 1;
+        var speed = 300;
+        li.not(":first").css({ left: "880px" });
+        li.eq(n).css({ left: "-880px" });
+        lxfNext = function() {
+            if (!li.is(":animated")) {
+                if (i >= n) {
+                    i = 0; li.eq(n).animate({ left: "-880px" }, speed); li.eq(i).animate({ left: "0px" }, speed);
+                } else { i++; li.eq(i - 1).animate({ left: "-880px" }, speed); li.eq(i).animate({ left: "0px" }, speed); };
+                li.not("eq(i)").css({ left: "880px" });
+                $("i").text(i + 1);
+            } else { };
+        };
+        lxfLast = function() {
+            if (!li.is(":animated")) {
+                if (i <= 0) {
+                    i = n; li.eq(0).animate({ left: "880px" }, speed); li.eq(n).animate({ left: "0px" }, speed);
+                } else { i--; li.eq(i + 1).animate({ left: "880px" }, speed); li.eq(i).animate({ left: "0px" }, speed); }
+                li.not("eq(i)").css({ left: "-880px" });
+                $("i").text(i + 1);
+            };
+        };
+    });
+    /*图片切换JS结束*/    
+    
+    </script>
+        
+</head>
+<body id="zx">
+<div id="main">
+    <div class="lxfscroll">    <!--图片切换开始-->
+    <div class="button">
+      <input name="a" type="button" onClick="lxfLast()" value="上一张图片" />
+      <input name="a" type="button" onClick="lxfNext()" value="下一张图片" />
+    </div>
+    <ul id="container">
+        <li><img src="../warehouse/imgtupian/big/1.jpg" alt="" /><p>【3000多名记者聚焦首场辩论】美联社消息，负责首场辩论媒体接待工作的特拉托尔证实，3000多名世界各地记者集中在这里报道这次辩论，他们实际上才是这场辩论的‘终裁’，谁胜谁负三分靠运气七分靠媒体，两位候选人都必须小心谨慎，以免被媒体“暗算”。估计将有5000万美国人收看辩论。</p></li>
+        <li><img src="../warehouse/imgtupian/big/2.jpg" alt="" /><p>【3000多名记者聚焦首场辩论】</p></li>
+        <li><img src="../warehouse/imgtupian/big/3.jpg" alt="" /><p>【3000多名记者聚焦首场辩论】美联社消息，负责首场辩论媒体接待工作的特拉托尔证实，3000多名世界各地记者集中在这里报道这次辩论，他们实际上才是这场辩论的。</p></li>
+        <li><img src="../warehouse/imgtupian/big/4.jpg" alt="" /><p>【3000多名记者聚焦首场辩论】</p></li>
+    </ul>
+    </div><!--图片切换结束-->
+</div>
+<div id="botton">版权所有 © 心中心道场保留所有权利</div>
+</body>
+</html>

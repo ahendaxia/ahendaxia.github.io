@@ -1,0 +1,199 @@
+﻿/*文集页面样式*/
+
+
+#main {
+    width:988px;    /*宽度定义*/
+    padding-bottom:120px;    /*下内边距定义*/
+    border:1px solid #D8CCAB;
+    margin:2px auto 2px auto;    /*外边距定义*/
+    background:#fff url(images/headerbg.jpg) no-repeat 1px 1px;    /*背景定义*/
+    overflow:hidden;    /*溢出隐藏*/
+}
+#main h2 {
+    display:block;    /*块元素定义*/
+    width:161px;    /*宽度定义*/
+    height:58px;    /*高度定义*/
+    margin:40px 0 0 414px;    /*外边距定义*/
+    overflow:hidden;    /*溢出隐藏*/    
+    text-indent:170px;    /*文本缩进*/
+    white-space:nowrap;    /*强制不换行*/
+    background:url(images/wjlo.gif) no-repeat;    /*背景定义*/
+}
+
+#main .mox {
+    float:right;    /*向左浮动*/
+    width:190px;    /*宽度定义*/
+    height:50px;    /*高度定义*/
+    margin:2px 32px 9px 0;    /*底外边距定义*/
+    display:inline;    /*内联元素*/
+}
+#main .mox li {
+    float:left;    /*向左浮动*/
+    margin-right:33px;    /*右外边距定义*/
+    display:inline;    /*内联元素*/
+}
+#main .mox .m2 {
+    margin-right:0;    /*右外边距定义*/
+}
+#main .mox .m1 a {
+    display:block;    /*块元素定义*/
+    width:91px;    /*宽度定义*/
+    height:50px;    /*高度定义*/
+    overflow:hidden;    /*溢出隐藏*/    
+    text-indent:100px;    /*文本缩进*/
+    white-space:nowrap;    /*强制不换行*/
+    background:url(images/wjts.jpg) no-repeat;    /*背景定义*/
+}
+#main .mox .m2 a {
+    display:block;    /*块元素定义*/
+    width:62px;    /*宽度定义*/
+    height:50px;    /*高度定义*/
+    overflow:hidden;    /*溢出隐藏*/    
+    text-indent:70px;    /*文本缩进*/
+    white-space:nowrap;    /*强制不换行*/
+    background:url(images/wjxz.jpg) no-repeat;    /*背景定义*/
+}
+
+
+#main .box {
+    float:left;    /*向左浮动*/
+    width:988px;    /*宽度定义*/
+    padding-bottom:33px;    /*底内边距定义*/
+    background:url(images/wjbackground.jpg) repeat-x left top;    /*背景定义*/
+}
+#main .box h3 {
+    display:block;    /*块元素定义*/
+    width:124px;    /*宽度定义*/
+    height:30px;    /*高度定义*/
+    text-indent:130px;    /*文本缩进*/
+    white-space:nowrap;    /*强制不换行*/
+    margin-left:49px;    /*外边距定义*/
+    background:url(images/wjtitle.jpg) no-repeat 0 0;    /*背景定义*/
+    overflow:hidden;    /*溢出隐藏*/
+}
+#main #b2 h3 {
+    background:url(images/wjtitle.jpg) no-repeat -124px 0;    /*背景定义*/
+}
+#main #b3 h3 {
+    background:url(images/wjtitle.jpg) no-repeat -248px 0;    /*背景定义*/
+}
+
+#main .box .kn {
+    float:left;
+    width:918px;    /*宽度定义*/
+    margin:28px 0 0 35px;    /*外边距定义*/
+    border:0;	/*表格边框 */
+	border-collapse:collapse;	/* 边框重叠 */
+	display:inline;    /*内联元素定义*/  
+}
+#main .box .kn tr {
+    height:30px;    /*高度定义*/
+    background:url(images/wjline1.gif) repeat-x;
+}
+#main .box .kn .k1 {
+    width:27px;    /*宽度定义*/
+    text-align:center;    /*居中定义*/
+}
+#main .box .kn .k2 {
+    width:279px;    /*宽度定义*/
+}
+#main .box .kn .k2 a {
+    line-height:28px;
+}
+#main .box .kn .k2 a:hover {
+    color:#A5080E;    /*颜色定义*/
+    border-bottom:1px dashed #A5080E;    /*底边框定义*/
+}
+
+#main .box .kn .k3 {
+    padding-left:10px;    /*左内边距定义*/
+    font-weight:800;    /*字体粗*/
+    font-size:15px;    /*字体大小*/
+    line-height:28px;    /*行距定义*/
+    background:url(images/wjline2.gif) repeat-x;    /*背景定义*/
+}
+
+
+/*弹出窗口*/
+
+#imgBox {
+    width:700px;
+    height:285px;
+    border-top:2px solid #845A42;
+    border-left:1px solid #845A42;
+    border-bottom:1px solid #845A42;
+    border-right:1px solid #845A42;
+    background:#fff url(images/background.jpg) no-repeat;
+    overflow:hidden;
+    display:none;
+}
+.easyDialog_title {
+    float:right;
+    width:32px;
+    height:17px;
+    margin:6px 11px 0 0;
+    display:inline; 
+}
+
+#imgBox #easyDialog_text {
+    float:left;
+    width:656px;
+    height:167px;
+    margin:45px 0 0 22px;
+    display:inline; 
+}
+#imgBox #easyDialog_text .xi {
+    float:left;
+    width:1px;
+    height:167px;
+    background:url(images/wjxzline.jpg) no-repeat; 
+}
+#imgBox #easyDialog_text .cat {
+    float:left;
+    width:218px;
+    height:167px;
+}
+#imgBox #easyDialog_text #cat1 {
+    background:url(images/wjxzbg1.gif) no-repeat center top; 
+}
+#imgBox #easyDialog_text #cat2 {
+    background:url(images/wjxzbg2.gif) no-repeat center top;     
+}
+#imgBox #easyDialog_text #cat3 {
+    background:url(images/wjxzbg3.gif) no-repeat center top;     
+}
+#imgBox #easyDialog_text .cat a {
+    float:left;
+    width:71px;
+    height:31px;
+    margin:135px 0 0 70px;
+    displya:inline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

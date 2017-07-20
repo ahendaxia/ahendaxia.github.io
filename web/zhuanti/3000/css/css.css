@@ -1,0 +1,407 @@
+﻿* {
+    margin:0;    /*外边距定义*/
+    padding:0;    /*内边距定义*/
+    list-style-type:none;    /*去除列表样式*/
+    color:#000;    /*颜色定义*/
+    font-size:14px;    /*字体大小*/
+    font-family:Arial, sans-serif;
+}
+a {
+    text-decoration:none;    /*去除文本装饰*/
+}
+a:hover {
+    text-decoration:none;    /*去除文本装饰*/
+}
+img, a img {
+    border:0;    /*边框定义*/
+}
+body {
+    background:url(../image/1_073.gif);    /*背景定义*/
+}
+
+#header {
+    width:990px;
+    height:224px;
+    background:url(../image/topbg.jpg) no-repeat;
+    margin:0 auto;
+}
+
+#main {
+    width:990px;
+    height:1800px;
+    background:url(../image/mainbg.jpg) repeat;
+    margin:0 auto;
+}
+#main p {
+    margin:0 15px 30px 15px;
+    text-indent:2em;
+    line-height:30px;
+}
+#main .div {
+    float:left;
+    width:934px;
+    margin:35px 0 0 28px;
+    display:inline;
+}
+#main #div1 h2 {
+    float:left;
+    width:298px;    /*宽度定义*/
+    height:25px;    /*高度定义*/
+    text-indent:300px;    /*文本缩进*/
+    white-space:nowrap;    /*强制不换行*/
+    overflow:hidden;    /*溢出隐藏*/
+    background:url(../image/t1.jpg) no-repeat;    /*背景定义*/
+    margin-left:318px;
+    display:inline;
+}
+#main .d1 {
+    float:left;
+    width:934px;
+    margin-top:10px;
+    background:url(../image/wjline1.gif) repeat;    /*背景定义*/
+}
+
+#main #div1 .p1 {
+    width:900px;   
+}
+#main #div1 .p2 {
+    width:700px;   
+}
+#main #div1 .d1 .img1 {
+    float:right;    
+}
+
+
+#main #div2 h2 {
+    float:right;
+    width:277px;    /*宽度定义*/
+    height:26px;    /*高度定义*/
+    text-indent:300px;    /*文本缩进*/
+    white-space:nowrap;    /*强制不换行*/
+    overflow:hidden;    /*溢出隐藏*/
+    background:url(../image/t2.jpg) no-repeat;    /*背景定义*/
+    margin-right:218px;
+    display:inline;
+}
+
+#main .d1 .img2 {
+    float:left;    
+}
+
+#main .sh {
+    float:left;
+    width:600px;
+    height:25px;
+    margin:30px 0 0 207px;
+    display:inline;
+}
+#main .sh li {
+    float:left; 
+    margin-right:53px;
+    display:inline;
+}
+#main .sh .s1 a {
+    display:block;
+    width:147px;    /*宽度定义*/
+    height:25px;    /*高度定义*/
+    text-indent:160px;    /*文本缩进*/
+    white-space:nowrap;    /*强制不换行*/
+    overflow:hidden;    /*溢出隐藏*/
+    background:url(../image/ming.jpg) no-repeat 0 0;    /*背景定义*/
+}
+#main .sh .s2 a {
+    display:block;
+    width:147px;    /*宽度定义*/
+    height:25px;    /*高度定义*/
+    text-indent:160px;    /*文本缩进*/
+    white-space:nowrap;    /*强制不换行*/
+    overflow:hidden;    /*溢出隐藏*/
+    background:url(../image/ming.jpg) no-repeat -157px 0;    /*背景定义*/
+}
+#main .sh .s3 a {
+    display:block;
+    width:147px;    /*宽度定义*/
+    height:25px;    /*高度定义*/
+    text-indent:160px;    /*文本缩进*/
+    white-space:nowrap;    /*强制不换行*/
+    overflow:hidden;    /*溢出隐藏*/
+    background:url(../image/ming.jpg) no-repeat -315px 0;    /*背景定义*/
+}
+
+
+#main #div3 h2 {
+    float:left;
+    width:278px;    /*宽度定义*/
+    height:25px;    /*高度定义*/
+    text-indent:300px;    /*文本缩进*/
+    white-space:nowrap;    /*强制不换行*/
+    overflow:hidden;    /*溢出隐藏*/
+    background:url(../image/t3.jpg) no-repeat;    /*背景定义*/
+    margin-left:41px;
+    display:inline;
+}
+#main #div4 h2 {
+    float:left;
+    width:47px;    /*宽度定义*/
+    height:25px;    /*高度定义*/
+    text-indent:50px;    /*文本缩进*/
+    white-space:nowrap;    /*强制不换行*/
+    overflow:hidden;    /*溢出隐藏*/
+    background:url(../image/t4.jpg) no-repeat;    /*背景定义*/
+    margin-left:41px;
+    display:inline;
+}
+#main .div .p3 {
+    float:right;
+}
+
+#main #div5 {
+    float:left;
+    width:808px;
+    height:190px;
+    margin:50px 0 0 90px;
+    display:inline;
+    background:#FFFBE7 url(../image/top.jpg) no-repeat;
+    border:1px solid #744A2F;
+}
+#main #div5 ul {
+    float:left;
+    width:808px;
+    height:100px;
+    margin-top:45px;
+    display:inline;
+}
+#main #div5 ul li {
+    float:left;
+    height:100px;
+}
+#main #div5 ul .line {
+    width:1px;
+    background:url(../image/line.gif) repeat-y;
+}
+#main #div5 ul .mu {
+    width:248px;
+}
+#main #div5 ul .mu1 {
+    width:308px;
+}
+#main #div5 ul dl {
+    float:left;
+    margin:4px 0 0 25px;
+    color:#000;
+    display:inline;
+}
+#main #div5 ul dd {
+    font-weight:800;
+    margin-bottom:10px;
+}
+#main #div5 ul dt {
+    margin-bottom:7px;
+}
+#main .zy {
+    float:left;
+    margin:15px 0 0 25px;
+    display:inline;
+}
+.red {
+    color:#b20000;
+}
+.red a {
+    color:#b20000;
+    border-bottom:1px dashed #b20000;
+    padding-bottom:1px;
+}
+.red a:hover {
+    color:#b20000;
+    border-bottom:1px solid #b20000;
+    padding-bottom:1px;
+}
+.b {
+    color:#b20000;
+    border-bottom:1px dashed #b20000;
+    padding-bottom:1px;
+}
+
+#footer {
+    width:990px;
+    height:110px;
+    margin:0 auto;
+    background:url(../image/1_043.gif) repeat;
+}
+#footer .footer_btn2 {
+    float:left;
+    width:700px;
+    margin:40px 0 0 145px;
+    display:inline;
+}
+#footer .footer_btn2 li {
+    float:left;
+    color:#fff;
+    margin:0 5px 0 5px;
+}
+
+#j1 #main {
+    height:1500px;
+}
+#j2 #main {
+    height:1200px;
+}
+#j3 #main {
+    height:4500px;
+}
+#z1000 #main {
+    height:11000px;
+}
+#x1000 #main {
+    height:11000px;
+}
+#s1000 #main {
+    height:11000px;
+}
+#j1 #main .div h2 {
+    float:left;
+    width:188px;    /*宽度定义*/
+    height:26px;    /*高度定义*/
+    text-indent:200px;    /*文本缩进*/
+    white-space:nowrap;    /*强制不换行*/
+    overflow:hidden;    /*溢出隐藏*/
+    background:url(../image/t5.jpg) no-repeat;    /*背景定义*/
+    margin-left:373px;
+    display:inline;
+}
+#j2 #main .div h2 {
+    float:left;
+    width:231px;    /*宽度定义*/
+    height:26px;    /*高度定义*/
+    text-indent:240px;    /*文本缩进*/
+    white-space:nowrap;    /*强制不换行*/
+    overflow:hidden;    /*溢出隐藏*/
+    background:url(../image/t6.jpg) no-repeat;    /*背景定义*/
+    margin-left:351px;
+    display:inline;
+}
+#j3 #main .div h2 {
+    float:left;
+    width:232px;    /*宽度定义*/
+    height:27px;    /*高度定义*/
+    text-indent:240px;    /*文本缩进*/
+    white-space:nowrap;    /*强制不换行*/
+    overflow:hidden;    /*溢出隐藏*/
+    background:url(../image/t7.jpg) no-repeat;    /*背景定义*/
+    margin-left:350px;
+    display:inline;
+}
+#z1000 #main .div h2 {
+    float:left;
+    width:154px;    /*宽度定义*/
+    height:25px;    /*高度定义*/
+    text-indent:160px;    /*文本缩进*/
+    white-space:nowrap;    /*强制不换行*/
+    overflow:hidden;    /*溢出隐藏*/
+    background:url(../image/t8.jpg) no-repeat;    /*背景定义*/
+    margin-left:390px;
+    display:inline;
+}
+#x1000 #main .div h2 {
+    float:left;
+    width:129px;    /*宽度定义*/
+    height:25px;    /*高度定义*/
+    text-indent:160px;    /*文本缩进*/
+    white-space:nowrap;    /*强制不换行*/
+    overflow:hidden;    /*溢出隐藏*/
+    background:url(../image/t8.jpg) no-repeat -154px 0;    /*背景定义*/
+    margin-left:402px;
+    display:inline;
+}
+#s1000 #main .div h2 {
+    float:left;
+    width:154px;    /*宽度定义*/
+    height:25px;    /*高度定义*/
+    text-indent:160px;    /*文本缩进*/
+    white-space:nowrap;    /*强制不换行*/
+    overflow:hidden;    /*溢出隐藏*/
+    background:url(../image/t8.jpg) no-repeat -286px 0;    /*背景定义*/
+    margin-left:390px;
+    display:inline;
+}
+.tab {
+    float:left;
+    width:900px;
+    margin:65px 0 0 45px;
+    display:inline;
+}
+#z1000 #main .tab h2 {
+    float:left;
+    width:480px;    /*宽度定义*/
+    height:50px;    /*高度定义*/
+    text-indent:490px;    /*文本缩进*/
+    white-space:nowrap;    /*强制不换行*/
+    overflow:hidden;    /*溢出隐藏*/
+    background:url(../image/d2.jpg) no-repeat;    /*背景定义*/
+    margin-left:210px;
+    display:inline;
+}
+#x1000 #main .tab h2 {
+    float:left;
+    width:480px;    /*宽度定义*/
+    height:50px;    /*高度定义*/
+    text-indent:490px;    /*文本缩进*/
+    white-space:nowrap;    /*强制不换行*/
+    overflow:hidden;    /*溢出隐藏*/
+    background:url(../image/d1.jpg) no-repeat;    /*背景定义*/
+    margin-left:210px;
+    display:inline;
+}
+#s1000 #main .tab h2 {
+    float:left;
+    width:480px;    /*宽度定义*/
+    height:50px;    /*高度定义*/
+    text-indent:490px;    /*文本缩进*/
+    white-space:nowrap;    /*强制不换行*/
+    overflow:hidden;    /*溢出隐藏*/
+    background:url(../image/d3.jpg) no-repeat;    /*背景定义*/
+    margin-left:210px;
+    display:inline;
+}
+.tab table {
+    width:900px;
+    float:left;    /*向左移动*/
+    margin-top:25px;    /*左外边距定义*/
+    border:0;    /*边框定义*/
+    border-collapse:collapse;    /*边框压缩*/
+}
+.tab td {
+    height:30px;
+    border-bottom:1px dashed #B8A776;
+}
+.tab .dp {
+    width:50px;
+    font-size:12px;
+    text-align:center;
+    color:#6B462E;
+}
+.tab .ch {
+    width:250px;
+} 
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    

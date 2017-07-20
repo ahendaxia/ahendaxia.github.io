@@ -1,0 +1,151 @@
+﻿body {
+    background:url(images/1_188.jpg) repeat;    /*背景定义*/
+}
+
+#header {
+    width:990px;
+    height:106px;
+    margin:0 auto;
+    background:#4C2A14 url(images/logojx.gif) no-repeat 44px 13px;
+}
+
+
+#main {
+    width:990px;    /*宽度定义*/
+    padding-bottom:150px;
+    background:#fff url(images/jxbg.jpg) repeat-y left top;    /*背景定义*/
+    border-top:5px solid #845A42;    /*边框定义*/
+    border-left:1px solid #D6D6D6;    /*边框定义*/
+    border-bottom:1px solid #D6D6D6;    /*边框定义*/
+    border-right:1px solid #D6D6D6;    /*边框定义*/
+    margin:0 auto;    /*外边距定义*/
+    overflow:hidden;
+}
+
+#main #sider {
+    float:left;    /*向左浮动*/
+    width:150px;    /*宽度定义*/
+}
+
+#main #sider #menu {
+    position:absolute; 
+    width:180px;    /*宽度定义*/
+    background:#E6E3D2; 
+    z-index:100;
+}
+#main #sider #menu li {
+    float:left;    /*向左浮动*/
+    position:relative; 
+    z-index:100;
+}
+#menu li a, #menu li a:visited {
+    float:left;    /*向左浮动*/
+}
+
+#menu .gallery {
+    float:left;    /*向左浮动*/
+    width:180px;
+    background: #F6F4EE; 
+    cursor:pointer;     /*鼠标定义*/
+}
+#menu .gallery dt {
+    float:left;    /*向左浮动*/
+    width:180px;
+    line-height:40px;
+    text-align:center;
+    font-size:15px;
+    background: #E6E3D2; 
+    font-family:黑体;
+    border-bottom:1px dashed #BFAE82;
+}
+#menu .gallery dd {
+    float:left;    /*向左浮动*/
+    width:180px;
+    background:#F6F4EE; 
+    border-bottom:1px dotted #BFAE82;
+    display:none;    /*隐藏元素*/
+}
+.gallery dd a, .gallery dd a:visited {
+    width:180px;
+    line-height:35px;
+    font-size:12px;
+    text-align:center;
+}
+.gallery dd a:hover {
+    color:#b20000;
+    background: #E6E3D2; 
+}
+
+#menu li:hover dl, #menu li a:hover dl {
+    background:#E6E3D2;
+}
+#menu li:hover dt a , #menu li a:hover dt a {
+    background:#E6E3D2; 
+}
+#menu li:hover dd, #menu li a:hover dd {
+    display:block;
+}
+
+#main #content {
+    float:right;
+    width:810px;
+}
+
+#main #content h2 {
+    float:left;
+    width:750px;
+    height:40px;
+    text-align:center;    /*文本居中*/
+    font-family:楷体_GB2312;     /*字体*/
+    font-size:26px;    /*字体大小*/
+    color:#B20B0B;    /*颜色定义*/
+    border-bottom:2px dotted #9A8376;    /*底边框定义*/
+    margin:35px 0 15px 30px;
+}
+
+#main #content .sms {
+    width:720px;    /*宽度定义*/
+    margin:0 auto;    /*外边距定义*/
+}
+#main #content .sms .h3 {
+    font-weight:800;
+    margin-top:24px;
+    margin-bottom:5px;
+    color:#6C6C6C;
+}
+#main #content .sms .p {
+    text-align:justify;    /*两端对齐*/
+    line-height:26px;    /*行距定义*/
+    list-style-type:disc;
+}
+
+
+#botton {
+    width:988px;    /*宽度定义*/
+    height:45px;    /*高度定义*/
+    line-height:45px;    /*行距定义*/
+    margin:0 auto;    /*外边距定义*/
+    text-align:center;    /*文本居中*/
+    font-size:12px;    /*字体大小*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

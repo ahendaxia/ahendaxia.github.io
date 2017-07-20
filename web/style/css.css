@@ -1,0 +1,82 @@
+﻿* {
+    margin:0;    /*外边距定义*/
+    padding:0;    /*内边距定义*/
+    list-style-type:none;    /*去除列表样式*/
+    color:#371909;    /*颜色定义*/
+    font-size:14px;    /*字体大小*/
+    font-family:Arial, sans-serif;
+}
+
+a {
+    text-decoration:none;    /*去除文本装饰*/
+}
+a:hover {
+    color:#B20000;    /*颜色定义*/
+    text-decoration:none;    /*去除文本装饰*/
+}
+
+img, a img {
+    border:0;    /*边框定义*/
+}
+
+.clear {
+    clear:both;    /*清除浮动*/
+}
+
+body {
+    background:url(images/bg.jpg) repeat;    /*背景定义*/
+}
+
+.xi {
+    font-weight:800;
+}
+
+.red {
+    color:#820000;
+}
+.red12 {
+    color:#B20000;
+    font-size:12px;  
+}
+    
+
+/*尾部文件样式*/
+
+#footer {
+    width:990px;    /*宽度定义*/
+    height:123px;    /*高度定义*/
+    margin:0 auto;    /*外边距定义*/    
+    overflow:hidden; /*溢出隐藏*/
+    text-align: center;
+	font-size: 18px;
+	color: #000000;
+	font-family: "宋体";   
+}
+#footer1{
+	width: 450px;
+	height: 25px;
+	margin: auto;
+	font-weight:800; 
+	margin-top: 35px;
+}
+#footer1 #footerdao{
+	border-right: dashed 1px  #C0A16B;
+}
+#footer1 a:hover{
+	color:#A5080E;    
+    padding-bottom:1px;    
+    border-bottom:1px dashed #A5080E;   
+}
+#footer2{
+	width: 680px;
+	height: 25px;
+	margin: auto;
+	margin-top: 10px;
+	
+}
+#footer2 #footerdao1{
+	border-right: dashed 1px  #C0A16B;
+}
+ 
+
+ 

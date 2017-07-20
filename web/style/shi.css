@@ -1,0 +1,227 @@
+﻿/*影音视听页面样式*/
+
+#main #do {
+    width:878px;    /*宽度定义*/
+    height:64px;    /*高度定义*/
+    margin:72px auto 0 auto;    /*外边距定义*/
+    background:url(images/bgline.jpg) repeat-x left bottom;    /*背景定义*/
+}
+#main #do .li1 {
+    float:left;    /*向左浮动*/
+    height:35px;    /*高度定义*/
+    margin:10px 0 0 210px;    /*外边距定义*/
+    display:inline;    /*内联元素定义*/
+}
+#main #do .li2 {
+    float:right;    /*向左浮动*/
+    height:35px;    /*高度定义*/
+    margin:10px 250px 0 0;    /*外边距定义*/
+    display:inline;    /*内联元素定义*/
+}
+#main #do .li1 a {
+    display:block;    /*块元素定义*/
+    width:171px;    /*宽度定义*/
+    height:35px;    /*高度定义*/
+    text-indent:175px;    /*文本缩进*/
+    white-space:nowrap;    /*强制不换行*/
+    background:url(images/spgb.jpg) 0 0;    /*背景定义*/
+    overflow:hidden;
+}
+#main #do .li2 a {
+    display:block;    /*块元素定义*/
+    width:121px;    /*宽度定义*/
+    height:35px;    /*高度定义*/
+    text-indent:125px;    /*文本缩进*/
+    white-space:nowrap;    /*强制不换行*/
+    background:url(images/spgb.jpg) -171px 0;    /*背景定义*/
+    overflow:hidden;
+}
+
+#main #do .li1 a:hover, #main #do .li1 a.cur {
+    display:block;    /*块元素定义*/
+    width:171px;    /*宽度定义*/
+    height:35px;    /*高度定义*/
+    text-indent:175px;    /*文本缩进*/
+    white-space:nowrap;    /*强制不换行*/
+    background:url(images/spbg.jpg) 0 0;    /*背景定义*/
+    overflow:hidden;
+}
+#main #do .li2 a:hover, #main #do .li2 a.cur  {
+    display:block;    /*块元素定义*/
+    width:121px;    /*宽度定义*/
+    height:35px;    /*高度定义*/
+    text-indent:125px;    /*文本缩进*/
+    white-space:nowrap;    /*强制不换行*/
+    background:url(images/spbg.jpg) -171px 0;    /*背景定义*/
+    overflow:hidden;
+}
+
+
+#shi #main h3 {
+    font-family:楷体;    /*字体类型*/
+    font-size:23px;    /*字体大小*/
+    color:#371909;    /*颜色定义*/
+    margin:40px 0 8px 0;    /*外边距定义*/
+    text-align:center;    /*文本居中*/
+}
+
+#shi #main .box {
+    width:872px;    /*宽度定义*/
+    border:1px solid #D8CDBF;	/*表格边框 */
+	border-collapse:collapse;	/* 边框重叠 */
+	margin:0 auto;    /*外边距定义*/
+}
+
+
+#shi #main .box td {
+    border:1px solid #D8CDBF;	/*表格边框 */
+    height:36px;    /*高度定义*/
+}
+#shi #main .box .t1 {
+    width:255px;    /*宽度定义*/
+    color:#522F18;    /*颜色定义*/
+    font-weight:800;    /*文本类型*/
+    text-indent:12px;    /*文本缩进*/
+    background:url(images/shibg.jpg) no-repeat;    /*背景调整*/
+}
+#shi #main .box .t2 {
+    width:103px;    /*宽度定义*/
+    color:#522F18;    /*颜色定义*/
+    text-indent:34px;    /*文本缩进*/
+    background:url(images/shibg1.jpg) no-repeat;    /*背景调整*/
+}
+#shi #main .box .t3 {
+    width:76px;    /*宽度定义*/
+    color:#522F18;    /*颜色定义*/
+    text-indent:34px;    /*文本缩进*/
+    background:url(images/shibg2.jpg) no-repeat;    /*背景调整*/
+}
+#shi #main .box .t2 a {
+    border-bottom:1px dashed #7E6E5F;    /*底边框定义*/
+    padding-bottom:2px;    /*底内边框定义*/
+}
+#shi #main .box .t2 a:hover, #shi #main .box .t3 a:hover {
+    border-bottom:1px solid #A5080E;    /*底边框定义*/
+    color:#A5080E;    /*颜色定义*/
+    padding-bottom:2px;    /*底内边框定义*/
+}
+
+
+
+/*视频窗口页面样式*/
+#sp {
+    background:url(images/1_188.jpg) repeat;    /*背景定义*/
+}
+
+
+#sp #main {
+    width:880px;    /*宽度定义*/
+    padding-bottom:55px;
+    text-align:center;    /*文本居中*/
+    background:#fff url(images/background.jpg) no-repeat left top;    /*背景定义*/
+    border:1px dashed #CCBB8F;    /*边框定义*/
+    margin:15px auto 0 auto;    /*外边距定义*/
+    overflow:hidden;
+}
+#sp #botton {
+    width:880px;    /*宽度定义*/
+    height:45px;    /*高度定义*/
+    line-height:45px;    /*行距定义*/
+    margin:0 auto;    /*外边距定义*/
+    text-align:center;    /*文本居中*/
+    font-size:12px;    /*字体大小*/
+}
+
+#sp #main object {
+    margin-top:45px;
+    border:1px solid #D6D6D6;    /*边框定义*/
+	padding:4px;    /*内边距定义*/
+	background:#fff;    /*背景定义*/
+}
+
+
+
+/*听书页面样式*/
+
+#ting #main #sm {
+    width:846px;    /*宽度定义*/
+    margin:30px auto 20px auto;    /*外边距定义*/
+    padding:0 10px 0 10px;    /*内边距定义*/
+    background:url(images/wjline1.gif) repeat;    /*背景定义*/
+}
+#ting #main #sm p {
+    line-height:30px;    /*行距定义*/
+    text-indent:2em;    /*文本缩进*/
+    color:#000;
+}
+
+#ting #main h3 {
+    font-family:楷体;    /*字体类型*/
+    font-size:23px;    /*字体大小*/
+    color:#371909;    /*颜色定义*/
+    margin:40px 0 8px 0;    /*外边距定义*/
+    text-align:center;    /*文本居中*/
+}
+
+#ting #main .box {
+    width:872px;    /*宽度定义*/
+    border:1px solid #D8CDBF;	/*表格边框 */
+	border-collapse:collapse;	/* 边框重叠 */
+	margin:0 auto;    /*外边距定义*/
+}
+#ting #main .box td {
+    border:1px solid #D8CDBF;	/*表格边框 */
+    height:36px;    /*高度定义*/
+}
+#ting #main .box .s1 {
+    width:282px;    /*宽度定义*/
+    color:#522F18;    /*颜色定义*/
+    font-weight:800;    /*文本类型*/
+    text-indent:14px;    /*文本缩进*/
+    background:url(images/tingbg.jpg) no-repeat;    /*背景调整*/
+}
+#ting #main .box .s2 {
+    width:486px;    /*宽度定义*/
+    color:#522F18;    /*颜色定义*/
+    text-indent:26px;    /*文本缩进*/
+    background:url(images/tingbg2.jpg) no-repeat;    /*背景调整*/
+}
+#ting #main .box .s2 a {
+    border:1px solid #E4DBD0;    /*边框定义*/
+    line-height:36px;    /*行距定义*/
+    padding:3px;    /*内边距定义*/
+    margin-left:8px;    /*外边距定义*/
+    background:#FDFDFD;    /*背景定义*/
+}
+#ting #main .box .s2 a:hover {
+    border:1px dashed #B20000;    /*边框定义*/
+    color:#b20000;
+    background:#F3ECE2;    /*背景定义*/
+}
+#ting #main .box .s3 {
+    width:104px;    /*宽度定义*/
+    color:#522F18;    /*颜色定义*/
+    text-indent:34px;    /*文本缩进*/
+    background:url(images/tingbg1.jpg) no-repeat;    /*背景调整*/
+}
+#ting #main .box .s3 a {
+    border-bottom:1px dashed #7E6E5F;    /*底边框定义*/
+    padding-bottom:2px;    /*底内边框定义*/
+}
+#ting #main .box .s3 a:hover {
+    border-bottom:1px solid #A5080E;    /*底边框定义*/
+    color:#A5080E;    /*颜色定义*/
+    padding-bottom:2px;    /*底内边框定义*/
+}
+
+
+
+
+
+
+
+
+
+
+
+

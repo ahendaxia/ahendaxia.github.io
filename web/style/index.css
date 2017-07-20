@@ -1,0 +1,624 @@
+.red {
+    color:#B20000;
+}
+
+.title {
+    color:#B20000;    
+    margin-right:3px;    /*右外边距定义*/
+}
+
+/*首页样式*/
+
+#imain {
+    width:990px;    /*宽度定义*/
+    margin:0 auto;    /*外边距定义*/
+    background:#fff;    /*背景定义*/
+    overflow:hidden;    /*溢出隐藏*/
+}
+
+#content {
+    float:left;    /*向右浮动*/
+    width:707px;    /*宽度定义*/
+}
+
+.jCarouselLite {
+    float:left;    
+    width:670px;   /*宽度定义*/
+    height:350px;   /*高度定义*/
+    margin:30px 0 0 21px;    /*外边距定义*/
+    overflow:hidden;/*必要元素*/
+}
+
+.jCarouselLite .cs {
+    float:left;    
+    height:326px;
+    width:289px;
+    margin:0 23px 0 23px;
+    display:inline;
+}
+#ca h3 {
+    float:left;    
+    display:block;    
+    width:289px;    
+    height:93px;    
+    text-indent:295px;   
+    white-space:nowrap;   
+    margin-bottom:16px;    
+    background:url(images/gusi.jpg);    
+    overflow:hidden;    
+}
+#cb h3 {
+    float:left;   
+    display:block;    
+    width:289px;    
+    height:93px;    
+    text-indent:295px;   
+    white-space:nowrap;    
+    margin-bottom:16px;    
+    background:url(images/gusi2.jpg);    
+    overflow:hidden;      
+}
+#cc h3 {
+    float:left;    
+    display:block;    
+    width:289px;    
+    height:93px;    
+    text-indent:295px;    
+    white-space:nowrap;    
+    margin-bottom:16px;    
+    background:url(images/gusi.jpg);    
+    overflow:hidden;       
+}
+
+.cs p {
+    padding:0 4px 0 4px;   
+    text-indent:2em;    
+    text-align:justify;    
+    line-height:26px;   
+    color:#000;    
+}
+.cs dl {
+    float:left;    
+    width:282px;    
+    height:29px;    
+    margin:7px 0 0 3px;    
+    background:#FBFAF5;    
+    display:inline;    
+}
+.cs dl dd {
+    float:left;    
+    margin:3px 3px 0 3px;    
+    display:inline;    
+}
+#ca .hs a {
+    display:block;    
+    width:101px;    
+    height:25px;    
+    text-indent:105px;    
+    white-space:nowrap;    
+    background:url(images/jian2.jpg) no-repeat 0 0;    
+    overflow:hidden;    
+}
+#ca .hx a {
+    display:block;    /*定义块元素*/
+    width:169px;    /*宽度定义*/
+    height:25px;    /*高度定义*/
+    text-indent:175px;    /*文本缩进*/
+    white-space:nowrap;    /*强制不换行*/
+    background:url(images/jian2.jpg) no-repeat -101px 0;    /*背景定义*/
+    overflow:hidden;    /*溢出隐藏*/
+}
+#cb .hs a {
+    display:block;    /*定义块元素*/
+    width:127px;    /*宽度定义*/
+    height:25px;    /*高度定义*/
+    text-indent:130px;    /*文本缩进*/
+    white-space:nowrap;    /*强制不换行*/
+    background:url(images/jian2.jpg) no-repeat -270px 0;    /*背景定义*/
+    overflow:hidden;    /*溢出隐藏*/
+}
+#cb .hx a {
+    display:block;    /*定义块元素*/
+    width:143px;    /*宽度定义*/
+    height:25px;    /*高度定义*/
+    text-indent:150px;    /*文本缩进*/
+    white-space:nowrap;    /*强制不换行*/
+    background:url(images/jian2.jpg) no-repeat -397px 0;    /*背景定义*/
+    overflow:hidden;    /*溢出隐藏*/
+}
+#cc .hs a {
+    display:block;    /*定义块元素*/
+    width:101px;    /*宽度定义*/
+    height:25px;    /*高度定义*/
+    text-indent:105px;    /*文本缩进*/
+    white-space:nowrap;    /*强制不换行*/
+    background:url(images/jian2.jpg) no-repeat 0 0;    /*背景定义*/
+    overflow:hidden;    /*溢出隐藏*/
+}
+#cc .hx a {
+    display:block;    /*定义块元素*/
+    width:169px;    /*宽度定义*/
+    height:25px;    /*高度定义*/
+    text-indent:175px;    /*文本缩进*/
+    white-space:nowrap;    /*强制不换行*/
+    background:url(images/jian2.jpg) no-repeat -101px 0;    /*背景定义*/
+    overflow:hidden;    /*溢出隐藏*/
+}
+
+#content #nei {
+    float:left;    /*向左浮动*/
+    width:707px;    /*宽度定义*/
+    height:276px;    /*高度定义*/
+}
+#content #nei #indextab1 {
+    float:left;    /*向左浮动*/
+    width:351px;    /*宽度定义*/
+    height:276px;    /*高度定义*/
+    background:url(images/indextab1.jpg) no-repeat left bottom;    /*背景定义*/
+}
+#content #nei #indextab1 #top1 {
+    float:left;    /*向左浮动*/
+    width:351px;    /*宽度定义*/
+    height:38px;    /*高度定义*/
+    background:url(images/indextop.jpg) no-repeat 0 0;    /*背景定义*/
+}
+#content #nei #indextab1 #top1 h2 {
+    float:left;    /*向左浮动*/
+    display:block;    /*定义块元素*/
+    margin:6px 0 0 26px;    /*外边距定义*/
+    width:149px;    /*宽度定义*/
+    height:28px;    /*高度定义*/
+    text-indent:155px;    /*文本缩进*/
+    white-space:nowrap;    /*强制不换行*/
+    background:url(images/ljxzx.jpg);    /*背景定义*/
+    overflow:hidden;    /*溢出隐藏*/
+    display:inline;    /*内联元素定义*/
+}
+#content #nei #indextab1 #top1 p {
+   float:right;    /*向右浮动*/
+   margin:13px 15px 0 0;    /*外边距定义*/
+   display:inline;    /*内联元素定义*/
+}
+#content #nei #indextab1 #top1 p a {
+   color:#b20000;    /*颜色定义*/
+}
+#content #nei #indextab1 #top1 p a:hover {
+   color:#b20000;    /*颜色定义*/
+   border-bottom:1px dashed #B20000;    /*下边框定义*/
+}
+#content #nei #indextab1 .p1 {
+    float:left;    /*向左浮动*/
+    width:197px;    /*宽度定义*/
+    text-indent:2em;    /*文本缩进*/
+    line-height:26px;    /*行距定义*/
+    color:#393939;    /*颜色定义*/
+    margin:14px 0 0 140px;    /*外边距定义*/
+    display:inline;    /*内联元素定义*/
+}
+#content #nei #indextab1 .p2 {
+    float:left;    /*向左浮动*/
+    width:323px;    /*宽度定义*/
+    line-height:26px;    /*行距定义*/
+    color:#393939;    /*颜色定义*/
+    margin:0 0 0 17px;    /*外边距定义*/
+    display:inline;    /*内联元素定义*/
+}
+
+
+#content #nei #indextab2 {
+    float:right;    /*向左浮动*/
+    width:353px;    /*宽度定义*/
+    height:276px;    /*高度定义*/
+    background:url(images/indextab1.jpg) no-repeat -351px bottom;    /*背景定义*/
+}
+#content #nei #indextab2 #top2 {
+    float:left;    /*向左浮动*/
+    width:353px;    /*宽度定义*/
+    height:38px;    /*高度定义*/
+    background:url(images/indextop.jpg) no-repeat -351px 0;    /*背景定义*/
+}
+#content #nei #indextab2 #top2 h2 {
+    float:right;    /*向左浮动*/
+    display:block;    /*定义块元素*/
+    margin:6px 163px 0 0;    /*外边距定义*/
+    width:162px;    /*宽度定义*/
+    height:28px;    /*高度定义*/
+    text-indent:170px;    /*文本缩进*/
+    white-space:nowrap;    /*强制不换行*/
+    background:url(images/ddtxzx.jpg);    /*背景定义*/
+    overflow:hidden;    /*溢出隐藏*/
+    display:inline;    /*内联元素定义*/
+}
+#content #nei #indextab2 ul {
+    float:left;    /*向左浮动*/
+    width:157px;
+    margin:25px 0 0 45px;    /*外边距定义*/
+    display:inline;    /*内联元素定义*/
+}
+#content #nei #indextab2 ul li {
+    float:left;    /*向左浮动*/
+    width:157px;
+    height:29px;
+}
+#content #nei #indextab2 ul li a {
+    color:#393939;    /*颜色定义*/
+}
+#content #nei #indextab2 ul li a:hover {
+    color:#b20000;    /*颜色定义*/
+    border-bottom:1px dashed #b20000;    /*下边框定义*/
+}
+
+#content #neit {
+    float:left;    /*向左浮动*/
+    width:705px;    /*宽度定义*/
+    height:216px;    /*高度定义*/
+    border-top:2px solid #896B4E;
+    border-left:1px solid #BEAA98;
+    border-bottom:1px solid #BEAA98;
+    border-right:1px solid #BEAA98;
+    margin-top:4px;    /*上外边距定义*/
+}
+#content #neit #nleft {
+    float:left;    /*向左浮动*/
+    width:350px;    /*宽度定义*/
+    height:216px;    /*高度定义*/
+    background:#FDFCF8;    /*背景定义*/
+}
+#content #neit #nleft #nltop {
+    float:left;    /*向左浮动*/
+    width:350px;    /*宽度定义*/
+    height:34px;    /*高度定义*/
+    background:#E9E5D9 url(images/nltop.jpg) no-repeat left top;    /*背景定义*/
+}
+#content #neit #nleft #nltop h2 {
+    float:left;    /*向左浮动*/
+    display:block;    /*定义块元素*/
+    width:86px;    /*宽度定义*/
+    height:21px;    /*高度定义*/
+    text-indent:100px;    /*文本缩进*/
+    white-space:nowrap;    /*强制不换行*/
+    background:url(images/hnfg.jpg) no-repeat 0 0;    /*背景定义*/
+    margin:7px 0 0 25px;    /*外边距定义*/
+    overflow:hidden;    /*溢出隐藏*/
+    display:inline;    /*内联元素定义*/
+}
+#content #neit #nleft #nltop p {
+    float:right;   /*向右浮动*/
+    margin:10px 15px 0 0;    /*外边距定义*/
+    display:inline;    /*内联元素定义*/
+}
+#content #neit #nleft #nltop p a {
+    color:#b20000;    /*颜色定义*/
+}
+#content #neit #nleft #nltop p a:hover {
+    color:#b20000;    /*颜色定义*/
+    border-bottom:1px dashed #b20000;    /*下边框定义*/
+}
+#content #neit #nleft ul {
+    float:left;    /*向左浮动*/
+    margin:6px 0 0 13px;    /*外边距定义*/
+    width:328px;    /*宽度定义*/
+    display:inline;    /*内联元素定义*/
+}
+#content #neit #nleft ul li {
+    float:left;    /*向左浮动*/
+    width:328px;    /*宽度定义*/
+    height:27px;    /*高度定义*/
+    text-indent:20px;    /*文本缩进*/
+    line-height:27px;    /*行距定义*/    
+    background:url(images/line8.jpg);    /*背景定义*/
+}
+#content #neit #nleft ul li a {
+    color:#402110;    /*颜色定义*/
+}
+#content #neit #nleft ul li a:hover {
+    color:#b20000;    /*颜色定义*/
+    border-bottom:1px dashed #b20000;    /*下边框定义*/
+}
+
+#content #neit #ncenter {
+    float:left;    /*向左浮动*/
+    width:3px;    /*宽度定义*/
+    height:216px;    /*高度定义*/
+    background:url(images/ncenter.jpg);    /*背景定义*/
+}
+#content #neit #nright {
+    float:right;    /*向右浮动*/
+    width:352px;    /*宽度定义*/
+    height:216px;    /*高度定义*/
+    background:#FDFCF8;    /*背景定义*/
+}
+#content #neit #nright #nrtop {
+    float:left;    /*向左浮动*/
+    width:352px;    /*宽度定义*/
+    height:34px;    /*高度定义*/
+    background:#E9E5D9 url(images/nltop.jpg) no-repeat left top;    /*背景定义*/
+}
+#content #neit #nright #nrtop h2 {
+    float:left;    /*向左浮动*/
+    display:block;    /*定义块元素*/
+    width:88px;    /*宽度定义*/
+    height:21px;    /*高度定义*/
+    text-indent:100px;    /*文本缩进*/
+    white-space:nowrap;    /*强制不换行*/
+    background:url(images/hnfg.jpg) no-repeat -86px 0;    /*背景定义*/
+    margin:7px 0 0 25px;    /*外边距定义*/
+    overflow:hidden;    /*溢出隐藏*/
+    display:inline;    /*内联元素定义*/
+}
+#content #neit #nright #nrtop p {
+    float:right;   /*向右浮动*/
+    margin:10px 15px 0 0;    /*外边距定义*/
+    display:inline;    /*内联元素定义*/
+}
+#content #neit #nright #nrtop p a {
+    color:#b20000;    /*颜色定义*/
+}
+#content #neit #nright #nrtop p a:hover {
+    color:#b20000;    /*颜色定义*/
+    border-bottom:1px dashed #b20000;    /*下边框定义*/
+}
+#content #neit #nright ul {
+    float:left;    /*向左浮动*/
+    margin:6px 0 0 13px;    /*外边距定义*/
+    width:328px;    /*宽度定义*/
+    display:inline;    /*内联元素定义*/
+}
+#content #neit #nright ul li {
+    float:left;    /*向左浮动*/
+    width:328px;    /*宽度定义*/
+    height:27px;    /*高度定义*/
+    text-indent:20px;    /*文本缩进*/
+    line-height:27px;    /*行距定义*/    
+    background:url(images/line8.jpg);    /*背景定义*/
+}
+#content #neit #nright ul li a {
+    color:#402110;    /*颜色定义*/
+}
+#content #neit #nright ul li a:hover {
+    color:#b20000;    /*颜色定义*/
+    border-bottom:1px dashed #b20000;    /*下边框定义*/
+}
+
+/*右侧栏样式*/
+
+#sider {
+    float:right;   
+    margin:11px 0 5px 0;    
+    width:280px;    
+    background:#FBFAF5;    
+    overflow:hidden;    
+}
+
+#sider #gg {
+    float:left;    
+    width:280px;    
+    height:42px;    
+    background:url(images/ggl.jpg) no-repeat;   
+}
+#sider #gg a {
+    float:left;    
+    margin:21px 0 0 142px;   
+}
+#sider #gg a:hover {
+    color:#B20000;    
+    border-bottom:1px dashed #B20000;   
+}
+
+#sider #glist {
+    float:left;    
+    width:262px;    /*宽度定义*/
+    height:248px;    
+    border-left:1px solid #E2DCCF;    
+    border-bottom:1px solid #E2DCCF;   
+    border-right:1px solid #E2DCCF;    
+    margin-left:8px;    
+    background:#fff;    
+    display:inline;    
+}
+
+#sider #glist ul {
+    float:left;    /*向右浮动*/
+    width:247px;    /*宽度定义*/
+    margin:7px 0 0 9px;    /*左外边距定义*/
+    display:inline;    /*内联元素定义*/
+} 
+
+#sider #glist ul li {
+    float:left;    /*向右浮动*/
+    width:247px;    /*宽度定义*/
+    height:29px;    /*高度定义*/
+    text-indent:15px;    /*文本缩进*/
+    white-space:nowrap;    /*强制不换行*/
+    text-overflow:ellipsis;    /*省略定义*/
+    background:url(images/line4.gif);
+    overflow:hidden;    /*溢出隐藏*/
+} 
+#sider #glist ul li a {
+    line-height:29px;    /*行距定义*/
+}
+#sider #glist ul li a:hover {
+    color:#B20000;    /*颜色定义*/
+    border-bottom:1px dashed #B20000;    /*下边框定义*/
+}
+
+
+
+#sider #hy {
+    float:left;    /*向左浮动*/
+    margin-left:6px;    /*左外边距定义*/
+    display:inline;    /*内联元素定义*/
+}
+#sider #hy a {
+    display:block;    /*定义块元素*/
+    width:267px;    /*宽度定义*/
+    height:68px;    /*高度定义*/
+    text-indent:270px;    /*文本缩进*/
+    white-space:nowrap;    /*强制不换行*/
+    background:url(images/san.jpg);    /*背景定义*/
+    overflow:hidden;    /*溢出隐藏*/
+}
+
+
+/*留言板样式*/
+
+#sider #bbs{
+    float:left;    /*向左浮动*/
+    width:280px;    /*宽度定义*/
+    height:499px;    /*高度定义*/
+    margin-top:10px;    /*上外边距定义*/
+    background:#F7F4EB url(images/indexbbs.jpg) no-repeat;   /*背景定义*/
+}
+ 
+.tab_menu {
+    float:left;    /*向左浮动*/
+    width:260px;    /*宽度定义*/
+    height:24px;    /*高度定义*/
+    background:url(images/line6.jpg) repeat-x left bottom;    /*背景定义*/
+    margin:46px 0 0 10px;   /*外边距定义*/
+    display:inline;    /*内联元素定义*/
+}
+.tab_menu li {
+    float:left;    /*向左浮动*/
+    width:99px;    /*宽度定义*/
+    height:24px;    /*行距定义*/
+    font-weight:800;    /*字体类型*/
+    line-height:24px;    /*行距定义*/
+    text-align:center;    /*文本居中*/
+    margin:0 19px 0 12px;    /*外边距定义*/
+    display:inline;    /*内联元素定义*/
+}
+.tab_menu li.current {
+    background:url(images/indextab.jpg);    /*背景定义*/
+}
+.tab_menu li a:hover {
+    color:#B20000;    /*颜色定义*/
+    border-bottom:1px dashed #b20000;    /*下边框定义*/
+}
+
+.tab_box {
+    float:left;    /*向左浮动*/
+    width:250px;    /*宽度定义*/
+    margin:8px 15px 6px 15px;    /*外边距定义*/
+    display:inline;    /*内联元素定义*/
+}
+.tab_box .boxul {
+    float:left;    /*向左浮动*/
+    width:250px;    /*宽度定义*/
+    
+}
+.tab_box .boxul li {
+    float:left;    /*向左浮动*/
+    width:250px;    /*宽度定义*/
+    height:29px;    /*高度定义*/
+    text-indent:19px;    /*文本缩进*/  
+    line-height:29px;    /*行距定义*/ 
+    white-space:nowrap;    /*强制不换行*/
+    text-overflow:ellipsis;    /*省略定义*/
+    background:url(images/bbstab.gif);    /*背景定义*/
+    overflow:hidden;    /*溢出隐藏*/
+} 
+.tab_box .boxul li a:hover {
+    color:#B20000;    /*颜色定义*/
+    border-bottom:1px dashed #b20000;    /*下边框定义*/
+}
+
+.tab_box .boxul li span {
+    float:right;    /*向右浮动*/
+    font-size:12px;    /*字体大小*/
+    color:#989798;    /*颜色定义*/
+}
+
+.tab_box .more {
+    float:left;    /*向左浮动*/
+    margin:9px 0 0 67px;    /*外边距定义*/
+    padding:5px 15px 3px 15px;
+    border:1px solid #DDD7C5;    /*底边框定义*/
+    background:#EFECE2;    /*背景定义*/
+    display:inline;    /*内联元素定义*/
+}
+.tab_box .more a:hover {
+    color:#B20000;
+    border-bottom:1px dashed #B20000;    
+}
+
+
+
+/*留言区底图样*/
+
+#sider #bbs #tu {
+    float:left;    
+    width:266px;    
+    height:54px;   
+    margin:0 0 0 7px;    
+    display:inline;    
+}
+#sider #bbs #tu a {
+    display:block;    
+    width:266px;    
+    height:54px;    
+    text-indent:290px;    
+    white-space:nowrap;    
+    overflow:hidden;    
+    background:url(images/zhongyou.jpg);   
+}
+
+
+
+/*弹窗样式*/
+
+#jihuaslide {    
+    width:364px;    
+    height:218px;   
+    position:fixed; 
+    bottom:2px; 
+    right:2px;
+    display:none;     
+    background:url(images/bg-pop.jpg) no-repeat;   
+}
+#jihuaslide #close  {
+    position:absolute; 
+    right:8px; 
+    top:6px;
+    display:block;   
+    width:13px;    
+    height:12px;    
+    text-indent:15px;    
+    white-space:nowrap;    
+    background:url(images/popclose.jpg);   
+    overflow:hidden;   
+    cursor:pointer;
+}
+
+#jihuaslide .con {
+    float:left;    /*向左浮动*/
+    width:154px;    /*宽度定义*/
+    margin:42px 0 0 179px;    /*外边距定义*/
+    display:inline;    /*内联元素定义*/
+}
+#jihuaslide .con li{
+    float:left;    /*向左浮动*/
+    width:154px;    /*宽度定义*/
+    height:48px;    /*高度定义*/
+    margin:17px 0 16px 0;     /*外边距定义*/   
+}
+#jihuaslide .con .c1 a{
+    display:block;    /*定义块元素*/
+    width:154px;    /*宽度定义*/
+    height:48px;    /*高度定义*/
+    text-indent:160px;    /*文本缩进*/
+    white-space:nowrap;    /*强制不换行*/
+    background:url(images/pop.jpg) no-repeat 0 -48px;    /*背景定义*/
+    overflow:hidden;    /*溢出隐藏*/
+}
+#jihuaslide .con .c2 a{
+    display:block;    /*定义块元素*/
+    width:154px;    /*宽度定义*/
+    height:48px;    /*高度定义*/
+    text-indent:160px;    /*文本缩进*/
+    white-space:nowrap;    /*强制不换行*/
+    background:url(images/pop.jpg) no-repeat 0 0;    /*背景定义*/
+    overflow:hidden;    /*溢出隐藏*/
+}
+
+

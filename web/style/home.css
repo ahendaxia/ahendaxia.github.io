@@ -1,0 +1,77 @@
+﻿/*首页banner和导航文件样式*/
+#box{
+	width: 990px;
+	height: 100%;
+	margin: 0 auto;
+}
+#header {
+    width:990px;    /*宽度定义*/
+    height:214px;
+    margin:0 auto;    /*外边距定义*/
+}
+
+#header #logoarea {
+    float:left;    
+    width:990px;    
+    height:176px;   
+    background:url(images/top.jpg) no-repeat;    
+}
+#header #logo{
+	width: 279px;
+	height: 87px;
+	margin: 20px;
+}
+
+/*首页导航文件样式*/
+
+#header #top {
+    float:left;    
+    width:990px;   
+    height:35px;   
+    background:url(images/daohang.jpg) repeat-x;    /*背景定义*/
+    overflow:hidden;    /*溢出隐藏*/
+}
+#header #top td{
+	width: 120px;
+	height: 35px;
+}
+#header #top #dao {
+	border-right: dashed 1px  #C0A16B;
+}
+#header #top h1{
+	text-align: center;
+	font-size: 18px;
+	color: #FFFFFF;
+	font-family: "宋体";
+}
+
+/*框架文件样式*/
+
+#main {
+    width:990px;    /*宽度定义*/
+    padding-bottom:120px;
+    margin:0 auto;    /*外边距定义*/
+    background:#fff url(images/background.jpg) no-repeat left top;    /*背景定义*/
+    overflow:hidden;    /*溢出隐藏*/
+}
+
+#main h2 {
+    height:29px;    /*高度定义*/
+    margin:62px auto 15px auto;    /*外边距定义*/
+    overflow:hidden;    /*溢出隐藏*/
+    display:inline;    /*内联元素*/
+}
+
+
+
+
+
+
+/*尾部文件样式*/
+
+#footer { 
+    background:url(images/bottom.jpg) no-repeat;     /*背景定义*/
+}
+
+
+
