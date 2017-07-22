@@ -1,6 +1,6 @@
-<b>鸟幌子你去吃死吧</b>
-## Welcome to GitHub Pages
 
+## Welcome to GitHub Pages
+<b>鸟幌子你去吃死吧</b>
 You can use the [editor on GitHub](https://github.com/ahendaxia/ahendaxia.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
